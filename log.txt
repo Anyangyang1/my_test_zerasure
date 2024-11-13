@@ -1,0 +1,7267 @@
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 256
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 256**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 18336.475000 us, size = 10485760, speed = 0.532579
+ !!!xor_time: 6484.420000 us, cpy_time: 2171.946000 us
+ !!!all_time: 8656.366000 us
+***************************************************
+ !!! schedule------Encode cost 16238.790000 us, size = 10485760, speed = 0.601376
+ !!!xor_time: 8003.988000 us, cpy_time: 1171.164000 us
+ !!!all_time: 9175.152000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 512
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 512**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 10601.845000 us, size = 10485760, speed = 0.921125
+ !!!xor_time: 4422.117000 us, cpy_time: 1344.848000 us
+ !!!all_time: 5766.965000 us
+***************************************************
+ !!! schedule------Encode cost 9789.483000 us, size = 10485760, speed = 0.997563
+ !!!xor_time: 5598.628000 us, cpy_time: 679.002000 us
+ !!!all_time: 6277.630000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 1024
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 1024**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 7097.866000 us, size = 10485760, speed = 1.375854
+ !!!xor_time: 3652.493000 us, cpy_time: 1008.746000 us
+ !!!all_time: 4661.239000 us
+***************************************************
+ !!! schedule------Encode cost 7406.175000 us, size = 10485760, speed = 1.318579
+ !!!xor_time: 5049.884000 us, cpy_time: 571.612000 us
+ !!!all_time: 5621.496000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 2048
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 2048**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 5712.762000 us, size = 10485760, speed = 1.709440
+ !!!xor_time: 3365.460000 us, cpy_time: 1092.247000 us
+ !!!all_time: 4457.707000 us
+***************************************************
+ !!! schedule------Encode cost 5691.399000 us, size = 10485760, speed = 1.715857
+ !!!xor_time: 4182.674000 us, cpy_time: 618.225000 us
+ !!!all_time: 4800.899000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 4096
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 4096**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 4900.416000 us, size = 10485760, speed = 1.992816
+ !!!xor_time: 3138.272000 us, cpy_time: 1118.333000 us
+ !!!all_time: 4256.605000 us
+***************************************************
+ !!! schedule------Encode cost 5237.266000 us, size = 10485760, speed = 1.864642
+ !!!xor_time: 4136.307000 us, cpy_time: 642.075000 us
+ !!!all_time: 4778.382000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 2048
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 2048**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 5644.980000 us, size = 10485760, speed = 1.729966
+ !!!xor_time: 3340.762000 us, cpy_time: 1050.734000 us
+ !!!all_time: 4391.496000 us
+***************************************************
+ !!! schedule------Encode cost 5688.706000 us, size = 10485760, speed = 1.716669
+ !!!xor_time: 4177.358000 us, cpy_time: 612.967000 us
+ !!!all_time: 4790.325000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 8192
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 8192**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 4833.516000 us, size = 10485760, speed = 2.020398
+ !!!xor_time: 3218.088000 us, cpy_time: 1258.893000 us
+ !!!all_time: 4476.981000 us
+***************************************************
+ !!! schedule------Encode cost 4950.589000 us, size = 10485760, speed = 1.972619
+ !!!xor_time: 4024.348000 us, cpy_time: 688.168000 us
+ !!!all_time: 4712.516000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 16384
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 16384**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 5238.128000 us, size = 10485760, speed = 1.864335
+ !!!xor_time: 3542.803000 us, cpy_time: 1459.427000 us
+ !!!all_time: 5002.230000 us
+***************************************************
+ !!! schedule------Encode cost 4857.372000 us, size = 10485760, speed = 2.010475
+ !!!xor_time: 3992.650000 us, cpy_time: 718.886000 us
+ !!!all_time: 4711.536000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 16384
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 16384**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 5231.991000 us, size = 10485760, speed = 1.866522
+ !!!xor_time: 3533.375000 us, cpy_time: 1462.852000 us
+ !!!all_time: 4996.227000 us
+***************************************************
+ !!! schedule------Encode cost 4851.139000 us, size = 10485760, speed = 2.013058
+ !!!xor_time: 3995.781000 us, cpy_time: 712.345000 us
+ !!!all_time: 4708.126000 us
+[anyangyang@node2 zerasure]$ ./zerasure 4 3 8 1 32768
+**************k = 4, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 32768**************
+  1   1   1   1
+200 151 172   1
+140   1  92  70
+bitmatrix ones:                 197
+xor nums:                       173
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      159
+split---common copy nums:       45
+split---common xor nums:        129
+**************************初始化数据
+Malloc... 2d 3 x 2621440
+ !!! common xor------Encode cost 5805.155000 us, size = 10485760, speed = 1.682233
+ !!!xor_time: 3892.105000 us, cpy_time: 1784.031000 us
+ !!!all_time: 5676.136000 us
+***************************************************
+ !!! schedule------Encode cost 5198.581000 us, size = 10485760, speed = 1.878517
+ !!!xor_time: 4406.214000 us, cpy_time: 711.386000 us
+ !!!all_time: 5117.600000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 32768
+**************k = 6, m = 3, w = 8, nr = 1, size = 11010048, packetsize = 32768**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1835008
+ !!! common xor------Encode cost 6594.560000 us, size = 11010048, speed = 1.554904
+ !!!xor_time: 4674.286000 us, cpy_time: 1776.542000 us
+ !!!all_time: 6450.828000 us
+***************************************************
+ !!! schedule------Encode cost 6051.012000 us, size = 11010048, speed = 1.694577
+ !!!xor_time: 5473.742000 us, cpy_time: 479.307000 us
+ !!!all_time: 5953.049000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 16384
+**************k = 6, m = 3, w = 8, nr = 1, size = 11010048, packetsize = 16384**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1835008
+ !!! common xor------Encode cost 5836.283000 us, size = 11010048, speed = 1.756924
+ !!!xor_time: 4196.102000 us, cpy_time: 1375.883000 us
+ !!!all_time: 5571.985000 us
+***************************************************
+ !!! schedule------Encode cost 5624.448000 us, size = 11010048, speed = 1.823096
+ !!!xor_time: 4973.306000 us, cpy_time: 484.141000 us
+ !!!all_time: 5457.447000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 8192
+**************k = 6, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 8192**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1769472
+ !!! common xor------Encode cost 5199.149000 us, size = 10616832, speed = 1.901791
+ !!!xor_time: 3734.846000 us, cpy_time: 1082.237000 us
+ !!!all_time: 4817.083000 us
+***************************************************
+ !!! schedule------Encode cost 5605.744000 us, size = 10616832, speed = 1.763851
+ !!!xor_time: 4897.146000 us, cpy_time: 443.749000 us
+ !!!all_time: 5340.895000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 4096
+**************k = 6, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 4096**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1769472
+ !!! common xor------Encode cost 5485.502000 us, size = 10616832, speed = 1.802514
+ !!!xor_time: 3791.463000 us, cpy_time: 974.637000 us
+ !!!all_time: 4766.100000 us
+***************************************************
+ !!! schedule------Encode cost 5925.582000 us, size = 10616832, speed = 1.668645
+ !!!xor_time: 4989.781000 us, cpy_time: 425.323000 us
+ !!!all_time: 5415.104000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 2048
+**************k = 6, m = 3, w = 8, nr = 1, size = 10518528, packetsize = 2048**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1753088
+ !!! common xor------Encode cost 6219.908000 us, size = 10518528, speed = 1.574966
+ !!!xor_time: 3942.165000 us, cpy_time: 916.674000 us
+ !!!all_time: 4858.839000 us
+***************************************************
+ !!! schedule------Encode cost 6362.732000 us, size = 10518528, speed = 1.539613
+ !!!xor_time: 4986.655000 us, cpy_time: 396.038000 us
+ !!!all_time: 5382.693000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 1024
+**************k = 6, m = 3, w = 8, nr = 1, size = 10518528, packetsize = 1024**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1753088
+ !!! common xor------Encode cost 7775.272000 us, size = 10518528, speed = 1.259910
+ !!!xor_time: 4212.788000 us, cpy_time: 886.548000 us
+ !!!all_time: 5099.336000 us
+***************************************************
+ !!! schedule------Encode cost 8435.702000 us, size = 10518528, speed = 1.161272
+ !!!xor_time: 6092.536000 us, cpy_time: 388.963000 us
+ !!!all_time: 6481.499000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 512
+**************k = 6, m = 3, w = 8, nr = 1, size = 10493952, packetsize = 512**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1748992
+ !!! common xor------Encode cost 11650.453000 us, size = 10493952, speed = 0.838873
+ !!!xor_time: 5262.204000 us, cpy_time: 1115.701000 us
+ !!!all_time: 6377.905000 us
+***************************************************
+ !!! schedule------Encode cost 11064.913000 us, size = 10493952, speed = 0.883265
+ !!!xor_time: 6739.173000 us, cpy_time: 470.696000 us
+ !!!all_time: 7209.869000 us
+[anyangyang@node2 zerasure]$ ./zerasure 6 3 8 1 256
+**************k = 6, m = 3, w = 8, nr = 1, size = 10493952, packetsize = 256**************
+  1   1   1   1   1   1
+200 151 172   1 225 166
+202 143 114 101 200   1
+bitmatrix ones:                 362
+xor nums:                       338
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      283
+split---common copy nums:       57
+split---common xor nums:        228
+**************************初始化数据
+Malloc... 2d 3 x 1748992
+ !!! common xor------Encode cost 20086.941000 us, size = 10493952, speed = 0.486548
+ !!!xor_time: 7650.130000 us, cpy_time: 1859.039000 us
+ !!!all_time: 9509.169000 us
+***************************************************
+ !!! schedule------Encode cost 18100.505000 us, size = 10493952, speed = 0.539944
+ !!!xor_time: 9514.151000 us, cpy_time: 799.345000 us
+ !!!all_time: 10313.496000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 256
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 256**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 20242.853000 us, size = 10485760, speed = 0.482423
+ !!!xor_time: 7714.498000 us, cpy_time: 1829.900000 us
+ !!!all_time: 9544.398000 us
+***************************************************
+ !!! schedule------Encode cost 19031.857000 us, size = 10485760, speed = 0.513120
+ !!!xor_time: 10292.956000 us, cpy_time: 594.384000 us
+ !!!all_time: 10887.340000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 512
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 512**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 11798.989000 us, size = 10485760, speed = 0.827666
+ !!!xor_time: 5336.762000 us, cpy_time: 1143.758000 us
+ !!!all_time: 6480.520000 us
+***************************************************
+ !!! schedule------Encode cost 11666.359000 us, size = 10485760, speed = 0.837076
+ !!!xor_time: 7242.942000 us, cpy_time: 353.521000 us
+ !!!all_time: 7596.463000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 1024
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 1024**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 7825.279000 us, size = 10485760, speed = 1.247959
+ !!!xor_time: 4273.758000 us, cpy_time: 846.468000 us
+ !!!all_time: 5120.226000 us
+***************************************************
+ !!! schedule------Encode cost 8889.312000 us, size = 10485760, speed = 1.098581
+ !!!xor_time: 6557.585000 us, cpy_time: 284.223000 us
+ !!!all_time: 6841.808000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 2048
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 2048**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 6433.767000 us, size = 10485760, speed = 1.517870
+ !!!xor_time: 4132.651000 us, cpy_time: 906.272000 us
+ !!!all_time: 5038.923000 us
+***************************************************
+ !!! schedule------Encode cost 6912.421000 us, size = 10485760, speed = 1.412765
+ !!!xor_time: 5546.903000 us, cpy_time: 313.221000 us
+ !!!all_time: 5860.124000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 4096
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 4096**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 5474.924000 us, size = 10485760, speed = 1.783701
+ !!!xor_time: 3822.012000 us, cpy_time: 947.049000 us
+ !!!all_time: 4769.061000 us
+***************************************************
+ !!! schedule------Encode cost 6236.310000 us, size = 10485760, speed = 1.565930
+ !!!xor_time: 5401.285000 us, cpy_time: 308.397000 us
+ !!!all_time: 5709.682000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 8192
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 8192**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 5373.772000 us, size = 10485760, speed = 1.817276
+ !!!xor_time: 3908.547000 us, cpy_time: 1069.446000 us
+ !!!all_time: 4977.993000 us
+***************************************************
+ !!! schedule------Encode cost 5912.287000 us, size = 10485760, speed = 1.651751
+ !!!xor_time: 5298.867000 us, cpy_time: 340.192000 us
+ !!!all_time: 5639.059000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 16384
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 16384**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 5807.294000 us, size = 10485760, speed = 1.681614
+ !!!xor_time: 4108.748000 us, cpy_time: 1446.941000 us
+ !!!all_time: 5555.689000 us
+***************************************************
+ !!! schedule------Encode cost 5675.147000 us, size = 10485760, speed = 1.720770
+ !!!xor_time: 5156.999000 us, cpy_time: 346.601000 us
+ !!!all_time: 5503.600000 us
+[anyangyang@node2 zerasure]$ ./zerasure 8 3 8 1 32768
+**************k = 8, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 32768**************
+  1   1   1   1   1   1   1   1
+  1 196 143 210  82 232 200 238
+202 143 114 101 200   1  39 217
+bitmatrix ones:                 487
+xor nums:                       463
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      409
+split---common copy nums:       76
+split---common xor nums:        309
+**************************初始化数据
+Malloc... 2d 3 x 1310720
+ !!! common xor------Encode cost 6551.674000 us, size = 10485760, speed = 1.490554
+ !!!xor_time: 4495.751000 us, cpy_time: 1917.069000 us
+ !!!all_time: 6412.820000 us
+***************************************************
+ !!! schedule------Encode cost 6071.073000 us, size = 10485760, speed = 1.608550
+ !!!xor_time: 5631.711000 us, cpy_time: 343.679000 us
+ !!!all_time: 5975.390000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 256
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 256**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 20327.815000 us, size = 10485760, speed = 0.480407
+ !!!xor_time: 7999.675000 us, cpy_time: 1637.321000 us
+ !!!all_time: 9636.996000 us
+***************************************************
+ !!! schedule------Encode cost 19214.052000 us, size = 10485760, speed = 0.508254
+ !!!xor_time: 10561.548000 us, cpy_time: 486.589000 us
+ !!!all_time: 11048.137000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 512
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 512**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 11793.633000 us, size = 10485760, speed = 0.828042
+ !!!xor_time: 5470.700000 us, cpy_time: 997.417000 us
+ !!!all_time: 6468.117000 us
+***************************************************
+ !!! schedule------Encode cost 11875.239000 us, size = 10485760, speed = 0.822352
+ !!!xor_time: 7508.967000 us, cpy_time: 290.331000 us
+ !!!all_time: 7799.298000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 1024
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 1024**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 7794.958000 us, size = 10485760, speed = 1.252813
+ !!!xor_time: 4370.259000 us, cpy_time: 750.921000 us
+ !!!all_time: 5121.180000 us
+***************************************************
+ !!! schedule------Encode cost 9190.569000 us, size = 10485760, speed = 1.062570
+ !!!xor_time: 6840.747000 us, cpy_time: 240.960000 us
+ !!!all_time: 7081.707000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 2048
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 2048**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 6222.088000 us, size = 10485760, speed = 1.569509
+ !!!xor_time: 4098.842000 us, cpy_time: 770.579000 us
+ !!!all_time: 4869.421000 us
+***************************************************
+ !!! schedule------Encode cost 6770.332000 us, size = 10485760, speed = 1.442414
+ !!!xor_time: 5504.374000 us, cpy_time: 242.632000 us
+ !!!all_time: 5747.006000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 4096
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 4096**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 5449.742000 us, size = 10485760, speed = 1.791943
+ !!!xor_time: 3895.395000 us, cpy_time: 846.898000 us
+ !!!all_time: 4742.293000 us
+***************************************************
+ !!! schedule------Encode cost 6360.870000 us, size = 10485760, speed = 1.535266
+ !!!xor_time: 5568.626000 us, cpy_time: 275.383000 us
+ !!!all_time: 5844.009000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 8192
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 8192**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 5239.085000 us, size = 10485760, speed = 1.863994
+ !!!xor_time: 3889.615000 us, cpy_time: 975.432000 us
+ !!!all_time: 4865.047000 us
+***************************************************
+ !!! schedule------Encode cost 5933.510000 us, size = 10485760, speed = 1.645843
+ !!!xor_time: 5387.596000 us, cpy_time: 284.610000 us
+ !!!all_time: 5672.206000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 16384
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 16384**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 5819.972000 us, size = 10485760, speed = 1.677951
+ !!!xor_time: 4219.677000 us, cpy_time: 1346.044000 us
+ !!!all_time: 5565.721000 us
+***************************************************
+ !!! schedule------Encode cost 5725.925000 us, size = 10485760, speed = 1.705510
+ !!!xor_time: 5270.418000 us, cpy_time: 287.579000 us
+ !!!all_time: 5557.997000 us
+[anyangyang@node2 zerasure]$ ./zerasure 10 3 8 1 32768
+**************k = 10, m = 3, w = 8, nr = 1, size = 10485760, packetsize = 32768**************
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+bitmatrix ones:                 617
+xor nums:                       593
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      522
+split---common copy nums:       84
+split---common xor nums:        398
+**************************初始化数据
+Malloc... 2d 3 x 1048576
+ !!! common xor------Encode cost 6752.463000 us, size = 10485760, speed = 1.446232
+ !!!xor_time: 4669.434000 us, cpy_time: 1940.534000 us
+ !!!all_time: 6609.968000 us
+***************************************************
+ !!! schedule------Encode cost 6153.798000 us, size = 10485760, speed = 1.586926
+ !!!xor_time: 5778.632000 us, cpy_time: 277.995000 us
+ !!!all_time: 6056.627000 us
+[anyangyang@node2 zerasure]$ ./zerasure 48 3 8 1 256
+**************k = 48, m = 3, w = 8, nr = 1, size = 10518528, packetsize = 256**************
+bitmatrix ones:                 3307
+xor nums:                       3283
+********************************************
+split---schedlue copy nums:     24
+split---schedlue xor nums:      3213
+split---common copy nums:       342
+split---common xor nums:        2074
+**************************初始化数据
+Malloc... 2d 3 x 219136
+ !!! common xor------Encode cost 18874.861000 us, size = 10518528, speed = 0.519005
+ !!!xor_time: 7814.122000 us, cpy_time: 1264.006000 us
+ !!!all_time: 9078.128000 us
+***************************************************
+ !!! schedule------Encode cost 21307.369000 us, size = 10518528, speed = 0.459754
+ !!!xor_time: 12598.627000 us, cpy_time: 101.121000 us
+ !!!all_time: 12699.748000 us
+ **************k = 48, m = 3, w = 8, nr = 2, size = 10518528, packetsize = 256**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 219136
+ !!! common xor------Encode cost 19188.317000 us, size = 10518528, speed = 0.510526
+ !!!xor_time: 7897.852000 us, cpy_time: 1264.663000 us
+ !!!all_time: 9162.515000 us
+***************************************************
+ !!! schedule------Encode cost 20232.059000 us, size = 10518528, speed = 0.484189
+ !!!xor_time: 11958.697000 us, cpy_time: 108.216000 us
+ !!!all_time: 12066.913000 us
+ 
+**************k = 48, m = 3, w = 8, nr = 4, size = 10518528, packetsize = 256**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 219136
+ !!! common xor------Encode cost 19460.191000 us, size = 10518528, speed = 0.503394
+ !!!xor_time: 8031.116000 us, cpy_time: 1211.286000 us
+ !!!all_time: 9242.402000 us
+***************************************************
+ !!! schedule------Encode cost 18735.041000 us, size = 10518528, speed = 0.522878
+ !!!xor_time: 10701.998000 us, cpy_time: 88.412000 us
+ !!!all_time: 10790.410000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 10518528, packetsize = 256**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 219136
+ !!! common xor------Encode cost 22715.939000 us, size = 10518528, speed = 0.431245
+ !!!xor_time: 9367.790000 us, cpy_time: 1354.002000 us
+ !!!all_time: 10721.792000 us
+***************************************************
+ !!! schedule------Encode cost 20291.360000 us, size = 10518528, speed = 0.482774
+ !!!xor_time: 11482.163000 us, cpy_time: 99.059000 us
+ !!!all_time: 11581.222000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 11116.083000 us, size = 10616832, speed = 0.889495
+ !!!xor_time: 5426.926000 us, cpy_time: 787.734000 us
+ !!!all_time: 6214.660000 us
+***************************************************
+ !!! schedule------Encode cost 13249.939000 us, size = 10616832, speed = 0.746245
+ !!!xor_time: 8762.229000 us, cpy_time: 81.818000 us
+ !!!all_time: 8844.047000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 11279.051000 us, size = 10616832, speed = 0.876642
+ !!!xor_time: 5441.624000 us, cpy_time: 792.263000 us
+ !!!all_time: 6233.887000 us
+***************************************************
+ !!! schedule------Encode cost 12228.201000 us, size = 10616832, speed = 0.808598
+ !!!xor_time: 7981.041000 us, cpy_time: 67.589000 us
+ !!!all_time: 8048.630000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 11574.854000 us, size = 10616832, speed = 0.854239
+ !!!xor_time: 5567.211000 us, cpy_time: 767.511000 us
+ !!!all_time: 6334.722000 us
+***************************************************
+ !!! schedule------Encode cost 11837.496000 us, size = 10616832, speed = 0.835286
+ !!!xor_time: 7773.012000 us, cpy_time: 53.194000 us
+ !!!all_time: 7826.206000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 13395.868000 us, size = 10616832, speed = 0.738115
+ !!!xor_time: 6473.338000 us, cpy_time: 847.428000 us
+ !!!all_time: 7320.766000 us
+***************************************************
+ !!! schedule------Encode cost 12504.374000 us, size = 10616832, speed = 0.790739
+ !!!xor_time: 8057.773000 us, cpy_time: 59.803000 us
+ !!!all_time: 8117.576000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 7434.752000 us, size = 10616832, speed = 1.329929
+ !!!xor_time: 4334.417000 us, cpy_time: 610.252000 us
+ !!!all_time: 4944.669000 us
+***************************************************
+ !!! schedule------Encode cost 10021.957000 us, size = 10616832, speed = 0.986603
+ !!!xor_time: 7722.490000 us, cpy_time: 72.842000 us
+ !!!all_time: 7795.332000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 7542.428000 us, size = 10616832, speed = 1.310943
+ !!!xor_time: 4394.078000 us, cpy_time: 598.070000 us
+ !!!all_time: 4992.148000 us
+***************************************************
+ !!! schedule------Encode cost 9244.229000 us, size = 10616832, speed = 1.069607
+ !!!xor_time: 7119.422000 us, cpy_time: 53.087000 us
+ !!!all_time: 7172.509000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 7636.733000 us, size = 10616832, speed = 1.294755
+ !!!xor_time: 4457.094000 us, cpy_time: 582.656000 us
+ !!!all_time: 5039.750000 us
+***************************************************
+ !!! schedule------Encode cost 8996.098000 us, size = 10616832, speed = 1.099109
+ !!!xor_time: 6957.172000 us, cpy_time: 43.397000 us
+ !!!all_time: 7000.569000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 221184
+ !!! common xor------Encode cost 8859.445000 us, size = 10616832, speed = 1.116063
+ !!!xor_time: 5155.855000 us, cpy_time: 633.816000 us
+ !!!all_time: 5789.671000 us
+***************************************************
+ !!! schedule------Encode cost 9679.926000 us, size = 10616832, speed = 1.021464
+ !!!xor_time: 7440.525000 us, cpy_time: 47.191000 us
+ !!!all_time: 7487.716000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 6220.676000 us, size = 11010048, speed = 1.648359
+ !!!xor_time: 4246.530000 us, cpy_time: 631.641000 us
+ !!!all_time: 4878.171000 us
+***************************************************
+ !!! schedule------Encode cost 7373.975000 us, size = 11010048, speed = 1.390553
+ !!!xor_time: 6120.620000 us, cpy_time: 55.637000 us
+ !!!all_time: 6176.257000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 6283.825000 us, size = 11010048, speed = 1.631794
+ !!!xor_time: 4301.683000 us, cpy_time: 618.363000 us
+ !!!all_time: 4920.046000 us
+***************************************************
+ !!! schedule------Encode cost 6985.681000 us, size = 11010048, speed = 1.467846
+ !!!xor_time: 5890.203000 us, cpy_time: 44.013000 us
+ !!!all_time: 5934.216000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 7310.517000 us, size = 11010048, speed = 1.402624
+ !!!xor_time: 5026.501000 us, cpy_time: 673.705000 us
+ !!!all_time: 5700.206000 us
+***************************************************
+ !!! schedule------Encode cost 7485.043000 us, size = 11010048, speed = 1.369919
+ !!!xor_time: 6290.821000 us, cpy_time: 50.710000 us
+ !!!all_time: 6341.531000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 11010048, packetsize = 4096**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 6239.742000 us, size = 11010048, speed = 1.643322
+ !!!xor_time: 4702.906000 us, cpy_time: 707.745000 us
+ !!!all_time: 5410.651000 us
+***************************************************
+ !!! schedule------Encode cost 6895.917000 us, size = 11010048, speed = 1.486953
+ !!!xor_time: 6268.198000 us, cpy_time: 52.688000 us
+ !!!all_time: 6320.886000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 11010048, packetsize = 4096**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 5396.497000 us, size = 11010048, speed = 1.900104
+ !!!xor_time: 4050.080000 us, cpy_time: 653.199000 us
+ !!!all_time: 4703.279000 us
+***************************************************
+ !!! schedule------Encode cost 6550.926000 us, size = 11010048, speed = 1.565261
+ !!!xor_time: 5975.170000 us, cpy_time: 46.958000 us
+ !!!all_time: 6022.128000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 11010048, packetsize = 4096**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 5338.817000 us, size = 11010048, speed = 1.920633
+ !!!xor_time: 3949.513000 us, cpy_time: 685.451000 us
+ !!!all_time: 4634.964000 us
+***************************************************
+ !!! schedule------Encode cost 5949.403000 us, size = 11010048, speed = 1.723519
+ !!!xor_time: 5344.157000 us, cpy_time: 49.934000 us
+ !!!all_time: 5394.091000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 6267.063000 us, size = 12582912, speed = 1.869895
+ !!!xor_time: 4461.030000 us, cpy_time: 1371.240000 us
+ !!!all_time: 5832.270000 us
+***************************************************
+ !!! schedule------Encode cost 6047.936000 us, size = 12582912, speed = 1.937645
+ !!!xor_time: 5673.273000 us, cpy_time: 56.524000 us
+ !!!all_time: 5729.797000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 7175.676000 us, size = 12582912, speed = 1.633121
+ !!!xor_time: 5149.419000 us, cpy_time: 1540.441000 us
+ !!!all_time: 6689.860000 us
+***************************************************
+ !!! schedule------Encode cost 7844.810000 us, size = 12582912, speed = 1.493822
+ !!!xor_time: 7429.824000 us, cpy_time: 59.851000 us
+ !!!all_time: 7489.675000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 7524.612000 us, size = 12582912, speed = 1.557389
+ !!!xor_time: 5411.990000 us, cpy_time: 1587.568000 us
+ !!!all_time: 6999.558000 us
+***************************************************
+ !!! schedule------Encode cost 7425.676000 us, size = 12582912, speed = 1.578139
+ !!!xor_time: 7028.497000 us, cpy_time: 61.974000 us
+ !!!all_time: 7090.471000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 9438.022000 us, size = 12582912, speed = 1.241653
+ !!!xor_time: 5930.245000 us, cpy_time: 3167.869000 us
+ !!!all_time: 9098.114000 us
+***************************************************
+ !!! schedule------Encode cost 7275.274000 us, size = 12582912, speed = 1.610764
+ !!!xor_time: 6988.279000 us, cpy_time: 66.825000 us
+ !!!all_time: 7055.104000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 9002.390000 us, size = 12582912, speed = 1.301738
+ !!!xor_time: 5643.868000 us, cpy_time: 3026.496000 us
+ !!!all_time: 8670.364000 us
+***************************************************
+ !!! schedule------Encode cost 7601.552000 us, size = 12582912, speed = 1.541626
+ !!!xor_time: 7307.540000 us, cpy_time: 65.760000 us
+ !!!all_time: 7373.300000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 7876.675000 us, size = 12582912, speed = 1.487779
+ !!!xor_time: 4841.855000 us, cpy_time: 2746.230000 us
+ !!!all_time: 7588.085000 us
+***************************************************
+ !!! schedule------Encode cost 5899.180000 us, size = 12582912, speed = 1.986505
+ !!!xor_time: 5605.666000 us, cpy_time: 66.855000 us
+ !!!all_time: 5672.521000 us
+**************k = 48, m = 3, w = 8, nr = 2, size = 12582912, packetsize = 32768**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3038
+split---common copy nums:	343
+split---common xor nums:	2121
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 11092.060000 us, size = 12582912, speed = 1.056499
+ !!!xor_time: 5498.907000 us, cpy_time: 5427.660000 us
+ !!!all_time: 10926.567000 us
+***************************************************
+ !!! schedule------Encode cost 6635.912000 us, size = 12582912, speed = 1.765959
+ !!!xor_time: 6451.420000 us, cpy_time: 68.327000 us
+ !!!all_time: 6519.747000 us
+**************k = 48, m = 3, w = 8, nr = 4, size = 12582912, packetsize = 32768**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2894
+split---common copy nums:	332
+split---common xor nums:	2167
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 11293.632000 us, size = 12582912, speed = 1.037642
+ !!!xor_time: 5627.205000 us, cpy_time: 5502.932000 us
+ !!!all_time: 11130.137000 us
+***************************************************
+ !!! schedule------Encode cost 7292.102000 us, size = 12582912, speed = 1.607047
+ !!!xor_time: 7118.853000 us, cpy_time: 64.218000 us
+ !!!all_time: 7183.071000 us
+**************k = 48, m = 3, w = 8, nr = 8, size = 12582912, packetsize = 32768**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	2742
+split---common copy nums:	328
+split---common xor nums:	2234
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 12994.667000 us, size = 12582912, speed = 0.901812
+ !!!xor_time: 6641.105000 us, cpy_time: 6157.322000 us
+ !!!all_time: 12798.427000 us
+***************************************************
+ !!! schedule------Encode cost 7863.699000 us, size = 12582912, speed = 1.490234
+ !!!xor_time: 7676.967000 us, cpy_time: 67.273000 us
+ !!!all_time: 7744.240000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 20260.359000 us, size = 10616832, speed = 0.488032
+ !!!xor_time: 8295.507000 us, cpy_time: 1243.108000 us
+ !!!all_time: 9538.615000 us
+***************************************************
+ !!! schedule------Encode cost 19130.577000 us, size = 10616832, speed = 0.516853
+ !!!xor_time: 11132.361000 us, cpy_time: 60.689000 us
+ !!!all_time: 11193.050000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 19654.430000 us, size = 10616832, speed = 0.503077
+ !!!xor_time: 8107.522000 us, cpy_time: 1202.268000 us
+ !!!all_time: 9309.790000 us
+***************************************************
+ !!! schedule------Encode cost 20119.900000 us, size = 10616832, speed = 0.491439
+ !!!xor_time: 11665.595000 us, cpy_time: 65.218000 us
+ !!!all_time: 11730.813000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 19482.361000 us, size = 10616832, speed = 0.507520
+ !!!xor_time: 8012.231000 us, cpy_time: 1272.302000 us
+ !!!all_time: 9284.533000 us
+***************************************************
+ !!! schedule------Encode cost 21216.737000 us, size = 10616832, speed = 0.466033
+ !!!xor_time: 12515.764000 us, cpy_time: 70.934000 us
+ !!!all_time: 12586.698000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 11322.933000 us, size = 10616832, speed = 0.873245
+ !!!xor_time: 5532.216000 us, cpy_time: 795.798000 us
+ !!!all_time: 6328.014000 us
+***************************************************
+ !!! schedule------Encode cost 12896.803000 us, size = 10616832, speed = 0.766678
+ !!!xor_time: 8590.886000 us, cpy_time: 46.318000 us
+ !!!all_time: 8637.204000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 11484.092000 us, size = 10616832, speed = 0.860991
+ !!!xor_time: 5575.930000 us, cpy_time: 757.692000 us
+ !!!all_time: 6333.622000 us
+***************************************************
+ !!! schedule------Encode cost 12448.852000 us, size = 10616832, speed = 0.794266
+ !!!xor_time: 8273.914000 us, cpy_time: 39.191000 us
+ !!!all_time: 8313.105000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 11815.086000 us, size = 10616832, speed = 0.836870
+ !!!xor_time: 5697.169000 us, cpy_time: 765.524000 us
+ !!!all_time: 6462.693000 us
+***************************************************
+ !!! schedule------Encode cost 11848.562000 us, size = 10616832, speed = 0.834506
+ !!!xor_time: 7795.425000 us, cpy_time: 37.363000 us
+ !!!all_time: 7832.788000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 7835.031000 us, size = 10616832, speed = 1.261985
+ !!!xor_time: 4552.155000 us, cpy_time: 578.156000 us
+ !!!all_time: 5130.311000 us
+***************************************************
+ !!! schedule------Encode cost 9083.657000 us, size = 10616832, speed = 1.088515
+ !!!xor_time: 7040.029000 us, cpy_time: 28.691000 us
+ !!!all_time: 7068.720000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 7647.214000 us, size = 10616832, speed = 1.292980
+ !!!xor_time: 4453.244000 us, cpy_time: 585.114000 us
+ !!!all_time: 5038.358000 us
+***************************************************
+ !!! schedule------Encode cost 9365.325000 us, size = 10616832, speed = 1.055777
+ !!!xor_time: 7250.995000 us, cpy_time: 32.246000 us
+ !!!all_time: 7283.241000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 7574.702000 us, size = 10616832, speed = 1.305358
+ !!!xor_time: 4422.804000 us, cpy_time: 618.932000 us
+ !!!all_time: 5041.736000 us
+***************************************************
+ !!! schedule------Encode cost 9896.839000 us, size = 10616832, speed = 0.999076
+ !!!xor_time: 7688.644000 us, cpy_time: 43.515000 us
+ !!!all_time: 7732.159000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 2048**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 6048.059000 us, size = 10616832, speed = 1.634854
+ !!!xor_time: 4106.225000 us, cpy_time: 645.537000 us
+ !!!all_time: 4751.762000 us
+***************************************************
+ !!! schedule------Encode cost 7476.690000 us, size = 10616832, speed = 1.322470
+ !!!xor_time: 6348.104000 us, cpy_time: 36.815000 us
+ !!!all_time: 6384.919000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 2048**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 6046.906000 us, size = 10616832, speed = 1.635166
+ !!!xor_time: 4145.063000 us, cpy_time: 579.794000 us
+ !!!all_time: 4724.857000 us
+***************************************************
+ !!! schedule------Encode cost 7192.151000 us, size = 10616832, speed = 1.374790
+ !!!xor_time: 6115.451000 us, cpy_time: 34.864000 us
+ !!!all_time: 6150.315000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 2048**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 6189.306000 us, size = 10616832, speed = 1.597545
+ !!!xor_time: 4237.877000 us, cpy_time: 588.686000 us
+ !!!all_time: 4826.563000 us
+***************************************************
+ !!! schedule------Encode cost 6782.950000 us, size = 10616832, speed = 1.457728
+ !!!xor_time: 5739.645000 us, cpy_time: 29.551000 us
+ !!!all_time: 5769.196000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 11796480, packetsize = 4096**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 163840
+ !!! common xor------Encode cost 5980.360000 us, size = 11796480, speed = 1.837068
+ !!!xor_time: 4491.351000 us, cpy_time: 704.140000 us
+ !!!all_time: 5195.491000 us
+***************************************************
+ !!! schedule------Encode cost 7018.562000 us, size = 11796480, speed = 1.565325
+ !!!xor_time: 6407.712000 us, cpy_time: 34.273000 us
+ !!!all_time: 6441.985000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 11796480, packetsize = 4096**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 163840
+ !!! common xor------Encode cost 5840.151000 us, size = 11796480, speed = 1.881172
+ !!!xor_time: 4371.715000 us, cpy_time: 718.177000 us
+ !!!all_time: 5089.892000 us
+***************************************************
+ !!! schedule------Encode cost 7364.635000 us, size = 11796480, speed = 1.491768
+ !!!xor_time: 6729.668000 us, cpy_time: 34.268000 us
+ !!!all_time: 6763.936000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 11796480, packetsize = 4096**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 163840
+ !!! common xor------Encode cost 5720.361000 us, size = 11796480, speed = 1.920566
+ !!!xor_time: 4232.781000 us, cpy_time: 750.847000 us
+ !!!all_time: 4983.628000 us
+***************************************************
+ !!! schedule------Encode cost 7382.799000 us, size = 11796480, speed = 1.488098
+ !!!xor_time: 6732.750000 us, cpy_time: 36.790000 us
+ !!!all_time: 6769.540000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 14155776, packetsize = 8192**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 196608
+ !!! common xor------Encode cost 7779.475000 us, size = 14155776, speed = 1.694664
+ !!!xor_time: 5365.750000 us, cpy_time: 1906.447000 us
+ !!!all_time: 7272.197000 us
+***************************************************
+ !!! schedule------Encode cost 7872.629000 us, size = 14155776, speed = 1.674611
+ !!!xor_time: 7469.948000 us, cpy_time: 42.968000 us
+ !!!all_time: 7512.916000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 14155776, packetsize = 8192**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 196608
+ !!! common xor------Encode cost 7455.235000 us, size = 14155776, speed = 1.768367
+ !!!xor_time: 5209.574000 us, cpy_time: 1758.711000 us
+ !!!all_time: 6968.285000 us
+***************************************************
+ !!! schedule------Encode cost 8205.849000 us, size = 14155776, speed = 1.606609
+ !!!xor_time: 7801.190000 us, cpy_time: 42.694000 us
+ !!!all_time: 7843.884000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 14155776, packetsize = 8192**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 196608
+ !!! common xor------Encode cost 7025.671000 us, size = 14155776, speed = 1.876489
+ !!!xor_time: 5083.517000 us, cpy_time: 1470.627000 us
+ !!!all_time: 6554.144000 us
+***************************************************
+ !!! schedule------Encode cost 7678.385000 us, size = 14155776, speed = 1.716975
+ !!!xor_time: 7266.126000 us, cpy_time: 44.879000 us
+ !!!all_time: 7311.005000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 18874368, packetsize = 16384**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 12825.105000 us, size = 18874368, speed = 1.370603
+ !!!xor_time: 7976.402000 us, cpy_time: 4399.477000 us
+ !!!all_time: 12375.879000 us
+***************************************************
+ !!! schedule------Encode cost 10409.243000 us, size = 18874368, speed = 1.688703
+ !!!xor_time: 10036.890000 us, cpy_time: 66.053000 us
+ !!!all_time: 10102.943000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 18874368, packetsize = 16384**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 12199.401000 us, size = 18874368, speed = 1.440901
+ !!!xor_time: 7712.668000 us, cpy_time: 4057.569000 us
+ !!!all_time: 11770.237000 us
+***************************************************
+ !!! schedule------Encode cost 10759.086000 us, size = 18874368, speed = 1.633794
+ !!!xor_time: 10381.975000 us, cpy_time: 65.338000 us
+ !!!all_time: 10447.313000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 18874368, packetsize = 16384**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 11945.709000 us, size = 18874368, speed = 1.471501
+ !!!xor_time: 7601.354000 us, cpy_time: 3909.659000 us
+ !!!all_time: 11511.013000 us
+***************************************************
+ !!! schedule------Encode cost 10335.681000 us, size = 18874368, speed = 1.700722
+ !!!xor_time: 9916.165000 us, cpy_time: 75.237000 us
+ !!!all_time: 9991.402000 us
+**************k = 72, m = 3, w = 8, nr = 8, size = 18874368, packetsize = 32768**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4393
+split---common copy nums:	502
+split---common xor nums:	3326
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 17932.962000 us, size = 18874368, speed = 0.980213
+ !!!xor_time: 9034.292000 us, cpy_time: 8648.891000 us
+ !!!all_time: 17683.183000 us
+***************************************************
+ !!! schedule------Encode cost 11374.266000 us, size = 18874368, speed = 1.545429
+ !!!xor_time: 11131.542000 us, cpy_time: 72.937000 us
+ !!!all_time: 11204.479000 us
+**************k = 72, m = 3, w = 8, nr = 4, size = 18874368, packetsize = 32768**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4582
+split---common copy nums:	493
+split---common xor nums:	3239
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 17211.222000 us, size = 18874368, speed = 1.021318
+ !!!xor_time: 8706.931000 us, cpy_time: 8259.287000 us
+ !!!all_time: 16966.218000 us
+***************************************************
+ !!! schedule------Encode cost 11748.885000 us, size = 18874368, speed = 1.496153
+ !!!xor_time: 11508.780000 us, cpy_time: 67.052000 us
+ !!!all_time: 11575.832000 us
+**************k = 72, m = 3, w = 8, nr = 2, size = 18874368, packetsize = 32768**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4729
+split---common copy nums:	510
+split---common xor nums:	3167
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 16813.383000 us, size = 18874368, speed = 1.045484
+ !!!xor_time: 8555.204000 us, cpy_time: 8006.466000 us
+ !!!all_time: 16561.670000 us
+***************************************************
+ !!! schedule------Encode cost 11236.953000 us, size = 18874368, speed = 1.564314
+ !!!xor_time: 10981.245000 us, cpy_time: 80.256000 us
+ !!!all_time: 11061.501000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 6160.923000 us, size = 11010048, speed = 1.664346
+ !!!xor_time: 4180.663000 us, cpy_time: 674.672000 us
+ !!!all_time: 4855.335000 us
+***************************************************
+ !!! schedule------Encode cost 7501.533000 us, size = 11010048, speed = 1.366908
+ !!!xor_time: 6288.997000 us, cpy_time: 57.942000 us
+ !!!all_time: 6346.939000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 11010048, packetsize = 4096**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 229376
+ !!! common xor------Encode cost 5258.769000 us, size = 11010048, speed = 1.949868
+ !!!xor_time: 3859.793000 us, cpy_time: 727.613000 us
+ !!!all_time: 4587.406000 us
+***************************************************
+ !!! schedule------Encode cost 6133.170000 us, size = 11010048, speed = 1.671877
+ !!!xor_time: 5500.735000 us, cpy_time: 51.258000 us
+ !!!all_time: 5551.993000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 5777.294000 us, size = 12582912, speed = 2.028415
+ !!!xor_time: 4384.258000 us, cpy_time: 975.942000 us
+ !!!all_time: 5360.200000 us
+***************************************************
+ !!! schedule------Encode cost 6311.674000 us, size = 12582912, speed = 1.856679
+ !!!xor_time: 5914.425000 us, cpy_time: 59.146000 us
+ !!!all_time: 5973.571000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 6786.932000 us, size = 12582912, speed = 1.726664
+ !!!xor_time: 4739.327000 us, cpy_time: 1760.060000 us
+ !!!all_time: 6499.387000 us
+***************************************************
+ !!! schedule------Encode cost 6160.744000 us, size = 12582912, speed = 1.902165
+ !!!xor_time: 5867.397000 us, cpy_time: 63.893000 us
+ !!!all_time: 5931.290000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 32768**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 9786.190000 us, size = 12582912, speed = 1.197478
+ !!!xor_time: 5312.043000 us, cpy_time: 4311.150000 us
+ !!!all_time: 9623.193000 us
+***************************************************
+ !!! schedule------Encode cost 6719.502000 us, size = 12582912, speed = 1.743991
+ !!!xor_time: 6525.068000 us, cpy_time: 69.666000 us
+ !!!all_time: 6594.734000 us
+**************k = 48, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 32768**************
+bitmatrix ones: 		3307
+xor nums: 			3283
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	3213
+split---common copy nums:	342
+split---common xor nums:	2074
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 9677.810000 us, size = 12582912, speed = 1.210889
+ !!!xor_time: 5293.260000 us, cpy_time: 4215.241000 us
+ !!!all_time: 9508.501000 us
+***************************************************
+ !!! schedule------Encode cost 6686.907000 us, size = 12582912, speed = 1.752492
+ !!!xor_time: 6491.108000 us, cpy_time: 74.237000 us
+ !!!all_time: 6565.345000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 18874368, packetsize = 32768**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 14297.314000 us, size = 18874368, speed = 1.229470
+ !!!xor_time: 8391.910000 us, cpy_time: 5666.446000 us
+ !!!all_time: 14058.356000 us
+***************************************************
+ !!! schedule------Encode cost 11723.967000 us, size = 18874368, speed = 1.499333
+ !!!xor_time: 11451.534000 us, cpy_time: 90.825000 us
+ !!!all_time: 11542.359000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 18874368, packetsize = 16384**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 9653.520000 us, size = 18874368, speed = 1.820903
+ !!!xor_time: 7193.638000 us, cpy_time: 2012.493000 us
+ !!!all_time: 9206.131000 us
+***************************************************
+ !!! schedule------Encode cost 10610.473000 us, size = 18874368, speed = 1.656677
+ !!!xor_time: 10187.501000 us, cpy_time: 77.279000 us
+ !!!all_time: 10264.780000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 14155776, packetsize = 8192**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 196608
+ !!! common xor------Encode cost 6472.714000 us, size = 14155776, speed = 2.036795
+ !!!xor_time: 4847.384000 us, cpy_time: 1147.611000 us
+ !!!all_time: 5994.995000 us
+***************************************************
+ !!! schedule------Encode cost 7985.277000 us, size = 14155776, speed = 1.650988
+ !!!xor_time: 7566.212000 us, cpy_time: 43.064000 us
+ !!!all_time: 7609.276000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 11796480, packetsize = 4096**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 163840
+ !!! common xor------Encode cost 5708.463000 us, size = 11796480, speed = 1.924569
+ !!!xor_time: 4160.664000 us, cpy_time: 820.598000 us
+ !!!all_time: 4981.262000 us
+***************************************************
+ !!! schedule------Encode cost 7366.356000 us, size = 11796480, speed = 1.491420
+ !!!xor_time: 6713.853000 us, cpy_time: 37.204000 us
+ !!!all_time: 6751.057000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 2048**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 6357.994000 us, size = 10616832, speed = 1.555160
+ !!!xor_time: 4206.710000 us, cpy_time: 862.929000 us
+ !!!all_time: 5069.639000 us
+***************************************************
+ !!! schedule------Encode cost 7696.828000 us, size = 10616832, speed = 1.284645
+ !!!xor_time: 6553.150000 us, cpy_time: 46.929000 us
+ !!!all_time: 6600.079000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 1024**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 7530.050000 us, size = 10616832, speed = 1.313098
+ !!!xor_time: 4389.609000 us, cpy_time: 630.898000 us
+ !!!all_time: 5020.507000 us
+***************************************************
+ !!! schedule------Encode cost 10201.788000 us, size = 10616832, speed = 0.969212
+ !!!xor_time: 7980.551000 us, cpy_time: 47.532000 us
+ !!!all_time: 8028.083000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 11179.887000 us, size = 10616832, speed = 0.884418
+ !!!xor_time: 5490.858000 us, cpy_time: 795.350000 us
+ !!!all_time: 6286.208000 us
+***************************************************
+ !!! schedule------Encode cost 13857.669000 us, size = 10616832, speed = 0.713518
+ !!!xor_time: 9388.433000 us, cpy_time: 64.702000 us
+ !!!all_time: 9453.135000 us
+**************k = 72, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		4978
+xor nums: 			4954
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	4827
+split---common copy nums:	510
+split---common xor nums:	3106
+**************************初始化数据
+Malloc... 2d 3 x 147456
+ !!! common xor------Encode cost 19099.821000 us, size = 10616832, speed = 0.517685
+ !!!xor_time: 8029.004000 us, cpy_time: 1266.896000 us
+ !!!all_time: 9295.900000 us
+***************************************************
+ !!! schedule------Encode cost 21745.107000 us, size = 10616832, speed = 0.454709
+ !!!xor_time: 12876.485000 us, cpy_time: 88.334000 us
+ !!!all_time: 12964.819000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 20204.537000 us, size = 10616832, speed = 0.489380
+ !!!xor_time: 8409.858000 us, cpy_time: 1312.661000 us
+ !!!all_time: 9722.519000 us
+***************************************************
+ !!! schedule------Encode cost 18874.805000 us, size = 10616832, speed = 0.523857
+ !!!xor_time: 10755.495000 us, cpy_time: 48.814000 us
+ !!!all_time: 10804.309000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 11593.887000 us, size = 10616832, speed = 0.852837
+ !!!xor_time: 5625.645000 us, cpy_time: 760.689000 us
+ !!!all_time: 6386.334000 us
+***************************************************
+ !!! schedule------Encode cost 11652.676000 us, size = 10616832, speed = 0.848534
+ !!!xor_time: 7612.379000 us, cpy_time: 30.046000 us
+ !!!all_time: 7642.425000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 11010048, packetsize = 1024**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 8180.447000 us, size = 11010048, speed = 1.253465
+ !!!xor_time: 4774.117000 us, cpy_time: 672.002000 us
+ !!!all_time: 5446.119000 us
+***************************************************
+ !!! schedule------Encode cost 9131.288000 us, size = 11010048, speed = 1.122942
+ !!!xor_time: 6987.870000 us, cpy_time: 24.580000 us
+ !!!all_time: 7012.450000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 6382.642000 us, size = 11010048, speed = 1.606530
+ !!!xor_time: 4353.931000 us, cpy_time: 624.118000 us
+ !!!all_time: 4978.049000 us
+***************************************************
+ !!! schedule------Encode cost 6520.476000 us, size = 11010048, speed = 1.572570
+ !!!xor_time: 5382.648000 us, cpy_time: 20.982000 us
+ !!!all_time: 5403.630000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 12582912, packetsize = 4096**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6325.641000 us, size = 12582912, speed = 1.852579
+ !!!xor_time: 4720.664000 us, cpy_time: 782.050000 us
+ !!!all_time: 5502.714000 us
+***************************************************
+ !!! schedule------Encode cost 7459.417000 us, size = 12582912, speed = 1.571001
+ !!!xor_time: 6835.073000 us, cpy_time: 26.847000 us
+ !!!all_time: 6861.920000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 7262.627000 us, size = 12582912, speed = 1.613569
+ !!!xor_time: 4686.447000 us, cpy_time: 2124.151000 us
+ !!!all_time: 6810.598000 us
+***************************************************
+ !!! schedule------Encode cost 6890.394000 us, size = 12582912, speed = 1.700737
+ !!!xor_time: 6552.314000 us, cpy_time: 27.857000 us
+ !!!all_time: 6580.171000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 10389.352000 us, size = 12582912, speed = 1.127958
+ !!!xor_time: 5137.518000 us, cpy_time: 4927.656000 us
+ !!!all_time: 10065.174000 us
+***************************************************
+ !!! schedule------Encode cost 6730.433000 us, size = 12582912, speed = 1.741158
+ !!!xor_time: 6497.329000 us, cpy_time: 31.534000 us
+ !!!all_time: 6528.863000 us
+**************k = 96, m = 3, w = 8, nr = 8, size = 25165824, packetsize = 32768**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	5785
+split---common copy nums:	656
+split---common xor nums:	4389
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 23798.555000 us, size = 25165824, speed = 0.984829
+ !!!xor_time: 12033.591000 us, cpy_time: 11423.972000 us
+ !!!all_time: 23457.563000 us
+***************************************************
+ !!! schedule------Encode cost 15283.107000 us, size = 25165824, speed = 1.533556
+ !!!xor_time: 14990.921000 us, cpy_time: 71.787000 us
+ !!!all_time: 15062.708000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 19540.422000 us, size = 10616832, speed = 0.506012
+ !!!xor_time: 8095.004000 us, cpy_time: 1233.813000 us
+ !!!all_time: 9328.817000 us
+***************************************************
+ !!! schedule------Encode cost 20290.526000 us, size = 10616832, speed = 0.487306
+ !!!xor_time: 11890.038000 us, cpy_time: 54.449000 us
+ !!!all_time: 11944.487000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 11398.100000 us, size = 10616832, speed = 0.867486
+ !!!xor_time: 5546.914000 us, cpy_time: 772.777000 us
+ !!!all_time: 6319.691000 us
+***************************************************
+ !!! schedule------Encode cost 12307.126000 us, size = 10616832, speed = 0.803412
+ !!!xor_time: 8173.027000 us, cpy_time: 32.068000 us
+ !!!all_time: 8205.095000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 11010048, packetsize = 1024**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 7917.342000 us, size = 11010048, speed = 1.295120
+ !!!xor_time: 4631.948000 us, cpy_time: 615.194000 us
+ !!!all_time: 5247.142000 us
+***************************************************
+ !!! schedule------Encode cost 9611.057000 us, size = 11010048, speed = 1.066886
+ !!!xor_time: 7448.531000 us, cpy_time: 25.239000 us
+ !!!all_time: 7473.770000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 6268.259000 us, size = 11010048, speed = 1.635846
+ !!!xor_time: 4279.680000 us, cpy_time: 628.843000 us
+ !!!all_time: 4908.523000 us
+***************************************************
+ !!! schedule------Encode cost 7009.519000 us, size = 11010048, speed = 1.462854
+ !!!xor_time: 5907.881000 us, cpy_time: 26.089000 us
+ !!!all_time: 5933.970000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 12582912, packetsize = 4096**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6169.659000 us, size = 12582912, speed = 1.899416
+ !!!xor_time: 4587.174000 us, cpy_time: 788.718000 us
+ !!!all_time: 5375.892000 us
+***************************************************
+ !!! schedule------Encode cost 6582.969000 us, size = 12582912, speed = 1.780162
+ !!!xor_time: 5922.341000 us, cpy_time: 26.821000 us
+ !!!all_time: 5949.162000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6973.906000 us, size = 12582912, speed = 1.680371
+ !!!xor_time: 4535.796000 us, cpy_time: 1997.676000 us
+ !!!all_time: 6533.472000 us
+***************************************************
+ !!! schedule------Encode cost 5879.759000 us, size = 12582912, speed = 1.993066
+ !!!xor_time: 5530.537000 us, cpy_time: 26.669000 us
+ !!!all_time: 5557.206000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 10093.097000 us, size = 12582912, speed = 1.161066
+ !!!xor_time: 4997.784000 us, cpy_time: 4779.227000 us
+ !!!all_time: 9777.011000 us
+***************************************************
+ !!! schedule------Encode cost 5914.820000 us, size = 12582912, speed = 1.981252
+ !!!xor_time: 5660.279000 us, cpy_time: 31.180000 us
+ !!!all_time: 5691.459000 us
+**************k = 96, m = 3, w = 8, nr = 4, size = 25165824, packetsize = 32768**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6075
+split---common copy nums:	663
+split---common xor nums:	4305
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 23297.593000 us, size = 25165824, speed = 1.006005
+ !!!xor_time: 11594.807000 us, cpy_time: 11364.846000 us
+ !!!all_time: 22959.653000 us
+***************************************************
+ !!! schedule------Encode cost 13665.575000 us, size = 25165824, speed = 1.715076
+ !!!xor_time: 13353.161000 us, cpy_time: 80.339000 us
+ !!!all_time: 13433.500000 us
+**************k = 96, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 19288.263000 us, size = 10616832, speed = 0.512628
+ !!!xor_time: 8024.396000 us, cpy_time: 1245.948000 us
+ !!!all_time: 9270.344000 us
+***************************************************
+ !!! schedule------Encode cost 21206.989000 us, size = 10616832, speed = 0.466247
+ !!!xor_time: 12619.467000 us, cpy_time: 53.784000 us
+ !!!all_time: 12673.251000 us
+**************k = 96, m = 3, w = 8, nr = 2, size = 10616832, packetsize = 512**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 11263.993000 us, size = 10616832, speed = 0.877814
+ !!!xor_time: 5509.924000 us, cpy_time: 782.467000 us
+ !!!all_time: 6292.391000 us
+***************************************************
+ !!! schedule------Encode cost 12992.500000 us, size = 10616832, speed = 0.761031
+ !!!xor_time: 8618.930000 us, cpy_time: 41.797000 us
+ !!!all_time: 8660.727000 us
+**************k = 96, m = 3, w = 8, nr = 2, size = 11010048, packetsize = 1024**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 8052.419000 us, size = 11010048, speed = 1.273395
+ !!!xor_time: 4658.448000 us, cpy_time: 720.177000 us
+ !!!all_time: 5378.625000 us
+***************************************************
+ !!! schedule------Encode cost 10270.796000 us, size = 11010048, speed = 0.998356
+ !!!xor_time: 7970.757000 us, cpy_time: 33.589000 us
+ !!!all_time: 8004.346000 us
+**************k = 96, m = 3, w = 8, nr = 2, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 6280.614000 us, size = 11010048, speed = 1.632628
+ !!!xor_time: 4250.072000 us, cpy_time: 707.125000 us
+ !!!all_time: 4957.197000 us
+***************************************************
+ !!! schedule------Encode cost 7397.919000 us, size = 11010048, speed = 1.386053
+ !!!xor_time: 6235.879000 us, cpy_time: 26.757000 us
+ !!!all_time: 6262.636000 us
+**************k = 96, m = 3, w = 8, nr = 2, size = 12582912, packetsize = 4096**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6121.447000 us, size = 12582912, speed = 1.914376
+ !!!xor_time: 4477.819000 us, cpy_time: 873.851000 us
+ !!!all_time: 5351.670000 us
+***************************************************
+ !!! schedule------Encode cost 6884.057000 us, size = 12582912, speed = 1.702303
+ !!!xor_time: 6204.446000 us, cpy_time: 26.503000 us
+ !!!all_time: 6230.949000 us
+ **************k = 96, m = 3, w = 8, nr = 2, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+0 113 4 
+0 327 4 
+1 326 4 
+1 112 4 
+2 21 0 
+2 18 4 
+3 3 4 
+3 325 4 
+4 324 4 
+4 73 4 
+5 168 4 
+5 323 4 
+6 322 4 
+6 143 4 
+6 12 0 
+7 111 4 
+7 321 4 
+8 15 0 
+8 320 4 
+8 110 4 
+9 109 4 
+9 319 4 
+10 108 4 
+10 10 0 
+10 318 4 
+11 16 0 
+11 107 4 
+12 17 0 
+12 142 4 
+13 167 4 
+13 17 1 
+14 21 1 
+14 166 4 
+15 181 4 
+15 317 4 
+16 316 4 
+16 141 4 
+17 1 0 
+17 106 4 
+18 105 4 
+18 315 4 
+19 314 4 
+19 104 4 
+20 313 4 
+20 140 4 
+20 13 0 
+21 312 4 
+21 103 4 
+22 15 1 
+22 6 0 
+22 72 4 
+23 165 4 
+23 311 4 
+23 19 0 
+24 310 4 
+24 102 4 
+25 101 4 
+25 309 4 
+26 310 5 
+26 100 4 
+27 71 4 
+27 308 4 
+28 8 0 
+28 35 4 
+28 307 4 
+29 17 4 
+29 306 4 
+29 17 1 
+30 70 4 
+30 16 1 
+31 305 4 
+31 16 4 
+32 164 4 
+32 304 4 
+33 303 4 
+33 69 4 
+34 302 4 
+34 100 5 
+34 18 0 
+35 99 4 
+35 18 1 
+35 301 4 
+36 4 0 
+36 9 0 
+36 15 4 
+37 5 0 
+37 18 1 
+37 98 4 
+38 68 4 
+38 300 4 
+39 97 4 
+39 10 1 
+39 7 0 
+40 299 4 
+40 180 4 
+40 19 1 
+41 163 4 
+41 298 4 
+42 96 4 
+43 297 4 
+43 67 4 
+44 2 4 
+44 296 4 
+45 295 4 
+45 34 4 
+46 14 4 
+46 294 4 
+47 293 4 
+47 179 4 
+48 95 4 
+48 313 5 
+49 292 4 
+49 139 4 
+50 138 4 
+50 291 4 
+51 290 4 
+51 94 4 
+52 93 4 
+52 289 4 
+52 23 0 
+53 288 4 
+53 92 4 
+54 16 1 
+54 91 4 
+54 287 4 
+55 286 4 
+55 137 4 
+56 8 1 
+56 23 1 
+56 90 4 
+57 112 5 
+57 16 1 
+58 285 4 
+58 20 0 
+58 136 4 
+59 93 5 
+59 297 5 
+60 9 1 
+60 284 4 
+60 135 4 
+61 134 4 
+61 286 5 
+62 17 1 
+62 13 4 
+63 12 4 
+63 319 5 
+64 283 4 
+64 191 4 
+65 190 4 
+65 282 4 
+66 12 1 
+66 2 0 
+66 281 4 
+67 17 1 
+67 280 4 
+67 13 1 
+68 279 4 
+68 18 1 
+68 20 1 
+69 15 1 
+69 19 1 
+69 278 4 
+70 162 4 
+70 287 5 
+71 165 5 
+71 291 5 
+72 189 4 
+72 108 5 
+73 277 4 
+73 33 4 
+74 17 1 
+74 2 1 
+74 66 4 
+75 3 0 
+75 65 4 
+76 296 5 
+76 32 4 
+77 276 4 
+77 64 4 
+78 63 4 
+78 21 1 
+78 6 1 
+79 179 5 
+79 283 5 
+80 275 4 
+80 62 4 
+81 303 5 
+81 161 4 
+82 18 1 
+82 318 5 
+82 89 4 
+83 14 0 
+83 280 5 
+83 61 4 
+84 133 4 
+84 289 5 
+85 188 4 
+85 312 5 
+85 23 1 
+85 17 1 
+86 274 4 
+86 132 4 
+87 273 4 
+87 19 1 
+87 88 4 
+88 0 0 
+88 17 1 
+88 97 5 
+89 163 5 
+89 17 1 
+89 14 1 
+89 16 1 
+90 23 1 
+90 160 4 
+90 272 4 
+91 162 5 
+91 271 4 
+91 3 1 
+92 9 1 
+92 323 5 
+92 178 4 
+93 22 0 
+93 167 5 
+93 270 4 
+94 131 4 
+94 20 1 
+94 17 1 
+95 269 4 
+95 101 5 
+96 189 5 
+96 268 4 
+97 267 4 
+97 187 4 
+98 177 4 
+98 2 1 
+99 301 5 
+99 130 4 
+100 60 4 
+100 16 1 
+100 4 1 
+101 9 1 
+101 129 4 
+101 327 5 
+102 128 4 
+102 292 5 
+102 20 1 
+103 7 1 
+103 266 4 
+103 159 4 
+104 0 1 
+104 31 4 
+105 1 1 
+105 13 1 
+105 35 5 
+106 322 5 
+106 11 4 
+107 8 1 
+107 10 4 
+107 265 4 
+108 59 4 
+108 264 4 
+108 8 1 
+109 8 1 
+109 30 4 
+109 288 5 
+110 13 1 
+110 87 4 
+110 263 4 
+111 87 5 
+111 262 4 
+111 18 1 
+112 9 4 
+112 0 1 
+113 8 4 
+113 261 4 
+114 260 4 
+114 11 5 
+115 3 1 
+115 259 4 
+115 58 4 
+116 258 4 
+116 29 4 
+117 28 4 
+117 257 4 
+118 57 4 
+118 187 5 
+119 56 4 
+119 256 4 
+119 22 1 
+120 158 4 
+120 22 1 
+120 0 1 
+121 157 4 
+121 255 4 
+122 10 1 
+122 2 1 
+122 254 4 
+123 11 0 
+123 17 1 
+123 314 5 
+124 253 4 
+124 12 1 
+124 13 1 
+125 5 1 
+125 14 1 
+125 252 4 
+126 251 4 
+126 328 4 
+127 176 4 
+127 8 1 
+127 250 4 
+128 20 1 
+128 55 4 
+129 27 4 
+130 0 4 
+131 26 4 
+131 10 1 
+131 18 1 
+132 25 4 
+133 24 4 
+133 12 1 
+134 54 4 
+134 13 1 
+135 14 1 
+135 53 4 
+136 160 5 
+136 299 5 
+136 8 1 
+137 175 4 
+137 306 5 
+137 9 1 
+138 186 4 
+138 23 1 
+138 315 5 
+139 300 5 
+139 18 1 
+139 174 4 
+140 156 4 
+140 249 4 
+141 276 5 
+141 180 5 
+141 14 1 
+142 173 4 
+142 248 4 
+142 22 1 
+143 268 5 
+143 7 1 
+143 86 4 
+144 113 5 
+144 255 5 
+145 247 4 
+145 16 5 
+146 127 4 
+146 246 4 
+147 15 1 
+147 23 4 
+147 3 1 
+148 8 1 
+148 253 5 
+148 155 4 
+149 168 5 
+149 259 5 
+150 324 5 
+150 173 5 
+151 126 4 
+151 250 5 
+151 20 1 
+152 245 4 
+152 102 5 
+153 16 1 
+153 181 5 
+153 309 5 
+154 244 4 
+154 155 5 
+155 251 5 
+155 174 5 
+156 265 5 
+156 178 5 
+156 12 1 
+157 278 5 
+157 126 5 
+158 294 5 
+158 10 1 
+158 154 4 
+159 269 5 
+159 130 5 
+160 7 4 
+160 8 1 
+160 320 5 
+161 98 5 
+161 243 4 
+161 23 1 
+162 22 4 
+162 12 1 
+163 242 4 
+163 52 4 
+164 125 4 
+164 14 1 
+165 295 5 
+165 15 1 
+165 172 4 
+166 321 5 
+166 6 1 
+166 185 4 
+167 171 4 
+167 241 4 
+168 240 4 
+168 51 4 
+169 12 1 
+169 239 4 
+169 109 5 
+170 238 4 
+170 2 5 
+171 290 5 
+171 21 1 
+171 92 5 
+171 8 1 
+172 237 4 
+172 14 5 
+173 124 4 
+173 236 4 
+174 6 1 
+174 9 5 
+174 19 1 
+175 8 5 
+175 7 1 
+176 235 4 
+176 1 4 
+177 1 5 
+177 234 4 
+178 233 4 
+178 22 5 
+179 52 5 
+179 22 1 
+180 125 5 
+180 232 4 
+181 10 1 
+181 123 4 
+182 231 4 
+182 166 5 
+183 122 4 
+183 12 1 
+184 90 5 
+184 230 4 
+185 91 5 
+185 22 1 
+185 1 1 
+186 121 4 
+186 16 1 
+187 17 1 
+187 298 5 
+187 50 4 
+188 49 4 
+188 229 4 
+188 13 1 
+189 228 4 
+189 67 5 
+189 5 1 
+190 58 5 
+190 328 5 
+191 12 1 
+191 227 4 
+191 34 5 
+192 20 1 
+192 226 4 
+192 30 5 
+192 21 1 
+193 27 5 
+193 311 5 
+194 17 1 
+194 0 5 
+194 9 1 
+195 26 5 
+196 25 5 
+196 225 4 
+197 24 5 
+197 20 1 
+198 54 5 
+198 21 1 
+199 53 5 
+199 22 1 
+200 22 1 
+200 120 4 
+201 254 5 
+201 1 1 
+201 61 5 
+202 48 4 
+202 224 4 
+203 21 1 
+203 47 4 
+203 3 1 
+204 307 5 
+204 99 5 
+205 232 5 
+205 15 5 
+205 5 1 
+206 223 4 
+206 85 4 
+207 119 4 
+207 222 4 
+208 84 4 
+208 304 5 
+209 243 5 
+209 46 4 
+210 8 1 
+210 45 4 
+210 13 1 
+211 9 1 
+211 221 4 
+211 44 4 
+212 21 4 
+212 273 5 
+213 220 4 
+213 153 4 
+214 230 5 
+214 143 5 
+215 227 5 
+215 136 5 
+216 275 5 
+216 119 5 
+216 10 1 
+217 152 4 
+217 219 4 
+217 1 1 
+218 218 4 
+218 45 5 
+218 10 1 
+219 217 4 
+219 44 5 
+220 73 5 
+220 260 5 
+221 216 4 
+221 94 5 
+222 266 5 
+222 20 4 
+223 111 5 
+223 221 5 
+223 16 1 
+224 256 5 
+224 0 1 
+224 184 4 
+225 236 5 
+225 183 4 
+225 22 1 
+226 242 5 
+226 11 1 
+226 121 5 
+227 50 5 
+227 14 1 
+228 49 5 
+228 15 1 
+229 15 1 
+229 151 4 
+230 131 5 
+230 186 5 
+231 215 4 
+231 43 4 
+232 170 4 
+232 9 1 
+233 150 4 
+233 214 4 
+234 248 5 
+234 149 4 
+235 148 4 
+235 213 4 
+236 22 1 
+236 140 5 
+237 212 4 
+237 83 4 
+238 158 5 
+238 211 4 
+239 317 5 
+239 9 1 
+239 172 5 
+240 13 1 
+240 120 5 
+240 210 4 
+241 6 4 
+241 1 1 
+242 18 1 
+242 209 4 
+242 85 5 
+243 107 5 
+243 208 4 
+244 142 5 
+244 326 5 
+245 281 5 
+245 129 5 
+246 207 4 
+246 128 5 
+247 118 4 
+247 8 1 
+247 206 4 
+248 191 5 
+248 106 5 
+249 1 1 
+249 18 1 
+249 105 5 
+250 205 4 
+250 104 5 
+251 71 5 
+251 11 1 
+252 103 5 
+252 237 5 
+253 204 4 
+253 72 5 
+254 212 5 
+254 82 4 
+255 43 5 
+255 210 5 
+256 18 1 
+256 81 4 
+257 175 5 
+257 12 1 
+257 203 4 
+258 80 4 
+258 19 1 
+259 9 1 
+259 3 1 
+259 118 5 
+260 117 4 
+260 217 5 
+261 79 4 
+261 202 4 
+262 6 1 
+262 42 4 
+263 7 1 
+263 5 4 
+264 78 4 
+264 0 1 
+265 207 5 
+265 116 4 
+266 159 5 
+266 285 5 
+267 19 1 
+267 77 4 
+268 41 4 
+269 123 5 
+269 214 5 
+269 9 1 
+270 76 4 
+270 13 1 
+270 6 1 
+271 11 1 
+271 122 5 
+271 201 4 
+272 141 5 
+272 184 5 
+273 200 4 
+273 75 4 
+274 182 4 
+274 20 1 
+274 209 5 
+275 18 1 
+275 115 4 
+276 199 4 
+276 147 4 
+277 151 5 
+277 198 4 
+277 23 1 
+278 229 5 
+278 82 5 
+279 76 5 
+279 305 5 
+279 16 1 
+280 197 4 
+280 146 4 
+281 116 5 
+281 11 1 
+282 23 1 
+282 78 5 
+282 246 5 
+283 77 5 
+283 240 5 
+284 41 5 
+284 196 4 
+284 22 1 
+285 195 4 
+285 4 4 
+286 40 4 
+286 252 5 
+287 39 4 
+287 231 5 
+288 9 1 
+288 55 5 
+288 15 1 
+289 8 1 
+289 177 5 
+289 247 5 
+290 18 1 
+290 18 5 
+290 200 5 
+291 16 1 
+291 38 4 
+292 19 4 
+292 17 1 
+293 17 5 
+294 153 5 
+294 6 1 
+294 208 5 
+295 154 5 
+295 241 5 
+295 17 1 
+296 74 4 
+296 226 5 
+296 12 1 
+297 60 5 
+297 183 5 
+298 205 5 
+298 37 4 
+299 194 4 
+299 3 1 
+299 37 5 
+300 42 5 
+300 258 5 
+301 5 5 
+301 9 1 
+301 5 1 
+302 6 1 
+302 36 4 
+302 8 1 
+303 188 5 
+303 145 4 
+304 51 5 
+304 239 5 
+305 127 5 
+305 234 5 
+306 224 5 
+306 23 5 
+307 10 5 
+307 11 1 
+308 228 5 
+308 59 5 
+309 216 5 
+309 74 5 
+310 132 5 
+310 185 5 
+311 219 5 
+311 137 5 
+312 33 5 
+312 0 1 
+313 66 5 
+313 1 1 
+314 65 5 
+314 272 5 
+315 3 1 
+315 32 5 
+316 4 1 
+316 64 5 
+317 5 1 
+317 63 5 
+318 223 5 
+318 182 5 
+319 18 1 
+319 145 5 
+320 9 1 
+320 95 5 
+321 11 1 
+321 139 5 
+322 12 1 
+322 138 5 
+323 147 5 
+323 193 4 
+324 4 1 
+324 86 5 
+325 4 5 
+325 18 1 
+326 40 5 
+326 18 1 
+327 39 5 
+327 19 1 
+328 194 5 
+328 20 1 
+328 169 4 
+329 176 5 
+329 190 5 
+330 284 5 
+330 114 4 
+330 16 1 
+331 3 1 
+331 23 1 
+331 110 5 
+332 192 4 
+332 117 5 
+333 79 5 
+333 293 5 
+334 245 5 
+334 70 5 
+335 7 1 
+335 7 5 
+336 225 5 
+336 16 1 
+336 170 5 
+337 150 5 
+337 249 5 
+338 149 5 
+338 282 5 
+339 218 5 
+339 148 5 
+340 156 5 
+340 213 5 
+341 134 5 
+341 15 1 
+342 8 1 
+342 13 5 
+342 198 5 
+343 215 5 
+343 12 5 
+344 195 5 
+344 21 1 
+344 81 5 
+345 75 5 
+345 308 5 
+346 14 1 
+346 274 5 
+346 80 5 
+347 302 5 
+347 12 1 
+347 115 5 
+348 8 1 
+348 144 4 
+348 199 5 
+349 257 5 
+349 84 5 
+350 211 5 
+350 46 5 
+351 20 1 
+351 88 5 
+352 48 5 
+352 197 5 
+353 47 5 
+353 261 5 
+354 96 5 
+354 271 5 
+355 3 5 
+355 196 5 
+356 21 5 
+356 233 5 
+356 8 1 
+357 124 5 
+357 264 5 
+358 20 5 
+358 270 5 
+359 21 1 
+359 152 5 
+359 262 5 
+360 29 5 
+360 235 5 
+361 28 5 
+361 267 5 
+362 6 5 
+362 13 1 
+362 238 5 
+363 38 5 
+363 201 5 
+364 316 5 
+364 19 5 
+365 83 5 
+365 325 5 
+366 18 1 
+366 57 5 
+367 19 1 
+367 56 5 
+368 23 1 
+368 133 5 
+368 0 1 
+369 277 5 
+369 62 5 
+370 161 5 
+370 244 5 
+371 3 1 
+371 89 5 
+372 202 5 
+372 135 5 
+373 204 5 
+373 164 5 
+374 263 5 
+374 69 5 
+375 206 5 
+375 31 5 
+376 203 5 
+376 169 5 
+377 15 1 
+377 157 5 
+378 20 1 
+378 114 5 
+379 21 1 
+379 171 5 
+379 193 5 
+380 146 5 
+380 279 5 
+381 220 5 
+381 144 5 
+382 10 1 
+382 192 5 
+382 68 5 
+383 36 5 
+383 222 5 
+0 8 3 
+0 10 3 
+0 11 3 
+0 13 3 
+0 14 3 
+0 15 3 
+0 16 3 
+0 18 3 
+0 19 3 
+0 20 3 
+0 22 3 
+0 23 3 
+0 2 3 
+1 20 3 
+1 21 3 
+1 22 3 
+1 23 3 
+1 8 3 
+1 9 3 
+1 11 3 
+1 14 3 
+1 15 3 
+1 16 3 
+1 17 3 
+2 20 3 
+2 21 3 
+2 22 3 
+2 23 3 
+2 8 3 
+2 10 3 
+2 11 3 
+2 12 3 
+2 13 3 
+2 15 3 
+2 17 3 
+3 18 3 
+3 19 3 
+3 21 3 
+3 22 3 
+3 3 3 
+3 8 3 
+3 10 3 
+3 11 3 
+3 15 3 
+3 16 3 
+3 17 3 
+4 21 3 
+4 23 3 
+4 5 3 
+4 9 3 
+4 11 3 
+4 13 3 
+4 15 3 
+4 16 3 
+4 19 3 
+4 20 3 
+5 22 3 
+5 23 3 
+5 8 3 
+5 11 3 
+5 14 3 
+5 15 3 
+5 16 3 
+5 18 3 
+5 19 3 
+5 20 3 
+6 20 3 
+6 21 3 
+6 8 3 
+6 10 3 
+6 11 3 
+6 12 3 
+6 14 3 
+6 15 3 
+6 16 3 
+6 17 3 
+7 20 3 
+7 22 3 
+7 9 3 
+7 10 3 
+7 11 3 
+7 13 3 
+7 14 3 
+7 15 3 
+7 16 3 
+7 18 3 
+8 19 3 
+8 21 3 
+8 9 3 
+8 10 3 
+8 11 3 
+8 12 3 
+8 13 3 
+8 14 3 
+8 16 3 
+8 17 3 
+9 20 3 
+9 23 3 
+9 8 3 
+9 9 3 
+9 10 3 
+9 11 3 
+9 12 3 
+9 13 3 
+9 16 3 
+9 17 3 
+10 21 3 
+10 23 3 
+10 3 3 
+10 9 3 
+10 10 3 
+10 12 3 
+10 13 3 
+10 14 3 
+10 18 3 
+10 19 3 
+11 20 3 
+11 22 3 
+11 2 3 
+11 10 3 
+11 12 3 
+11 13 3 
+11 14 3 
+11 15 3 
+11 17 3 
+11 18 3 
+12 22 3 
+12 23 3 
+12 7 3 
+12 8 3 
+12 10 3 
+12 14 3 
+12 17 3 
+12 19 3 
+12 20 3 
+12 21 3 
+13 21 3 
+13 22 3 
+13 6 3 
+13 11 3 
+13 13 3 
+13 15 3 
+13 16 3 
+13 18 3 
+13 19 3 
+13 20 3 
+14 22 3 
+14 23 3 
+14 9 3 
+14 10 3 
+14 14 3 
+14 15 3 
+14 16 3 
+14 17 3 
+14 18 3 
+14 19 3 
+15 20 3 
+15 21 3 
+15 8 3 
+15 10 3 
+15 11 3 
+15 14 3 
+15 15 3 
+15 16 3 
+15 17 3 
+15 18 3 
+16 19 3 
+16 20 3 
+16 9 3 
+16 10 3 
+16 13 3 
+16 14 3 
+16 15 3 
+16 16 3 
+16 17 3 
+16 18 3 
+17 20 3 
+17 23 3 
+17 5 3 
+17 9 3 
+17 10 3 
+17 12 3 
+17 13 3 
+17 15 3 
+17 18 3 
+17 19 3 
+18 20 3 
+18 23 3 
+18 2 3 
+18 8 3 
+18 11 3 
+18 12 3 
+18 14 3 
+18 15 3 
+18 16 3 
+18 19 3 
+19 19 3 
+19 22 3 
+19 4 3 
+19 8 3 
+19 9 3 
+19 11 3 
+19 12 3 
+19 14 3 
+19 18 3 
+20 22 3 
+20 23 3 
+20 6 3 
+20 10 3 
+20 13 3 
+20 16 3 
+20 17 3 
+20 18 3 
+20 20 3 
+21 22 3 
+21 23 3 
+21 4 3 
+21 9 3 
+21 10 3 
+21 15 3 
+21 18 3 
+21 19 3 
+21 20 3 
+22 22 3 
+22 23 3 
+22 2 3 
+22 8 3 
+22 9 3 
+22 11 3 
+22 15 3 
+22 16 3 
+22 19 3 
+23 18 3 
+23 22 3 
+23 8 3 
+23 9 3 
+23 10 3 
+23 11 3 
+23 12 3 
+23 13 3 
+23 17 3 
+24 21 3 
+24 23 3 
+24 5 3 
+24 8 3 
+24 9 3 
+24 11 3 
+24 13 3 
+24 17 3 
+24 18 3 
+25 20 3 
+25 22 3 
+25 4 3 
+25 8 3 
+25 9 3 
+25 12 3 
+25 15 3 
+25 16 3 
+25 17 3 
+26 21 3 
+26 23 3 
+26 3 3 
+26 8 3 
+26 9 3 
+26 14 3 
+26 15 3 
+26 16 3 
+26 17 3 
+27 22 3 
+27 23 3 
+27 1 3 
+27 11 3 
+27 12 3 
+27 13 3 
+27 14 3 
+27 15 3 
+27 21 3 
+28 20 3 
+28 23 3 
+28 8 3 
+28 12 3 
+28 13 3 
+28 15 3 
+28 16 3 
+28 17 3 
+28 18 3 
+29 22 3 
+29 23 3 
+29 9 3 
+29 10 3 
+29 12 3 
+29 14 3 
+29 15 3 
+29 16 3 
+29 18 3 
+30 22 3 
+30 23 3 
+30 9 3 
+30 12 3 
+30 13 3 
+30 14 3 
+30 15 3 
+30 17 3 
+30 19 3 
+31 20 3 
+31 23 3 
+31 9 3 
+31 11 3 
+31 12 3 
+31 13 3 
+31 14 3 
+31 16 3 
+31 19 3 
+32 20 3 
+32 21 3 
+32 8 3 
+32 10 3 
+32 11 3 
+32 13 3 
+32 15 3 
+32 16 3 
+32 17 3 
+33 22 3 
+33 23 3 
+33 9 3 
+33 10 3 
+33 12 3 
+33 13 3 
+33 18 3 
+33 19 3 
+33 21 3 
+34 22 3 
+34 23 3 
+34 8 3 
+34 9 3 
+34 10 3 
+34 14 3 
+34 16 3 
+34 19 3 
+34 21 3 
+35 19 3 
+35 21 3 
+35 10 3 
+35 12 3 
+35 14 3 
+35 15 3 
+35 16 3 
+35 17 3 
+35 18 3 
+36 15 3 
+36 16 3 
+36 17 3 
+36 18 3 
+36 21 3 
+36 23 3 
+36 9 3 
+36 11 3 
+37 12 3 
+37 13 3 
+37 14 3 
+37 15 3 
+37 20 3 
+37 21 3 
+37 8 3 
+37 9 3 
+38 9 3 
+38 13 3 
+38 15 3 
+38 17 3 
+38 18 3 
+38 21 3 
+38 3 3 
+38 8 3 
+39 12 3 
+39 15 3 
+39 17 3 
+39 18 3 
+39 22 3 
+39 23 3 
+39 7 3 
+39 9 3 
+40 11 3 
+40 14 3 
+40 16 3 
+40 17 3 
+40 21 3 
+40 22 3 
+40 6 3 
+40 8 3 
+41 10 3 
+41 11 3 
+41 12 3 
+41 16 3 
+41 17 3 
+41 23 3 
+41 4 3 
+41 8 3 
+42 13 3 
+42 14 3 
+42 15 3 
+42 21 3 
+42 22 3 
+42 23 3 
+42 9 3 
+42 11 3 
+43 11 3 
+43 12 3 
+43 16 3 
+43 18 3 
+43 19 3 
+43 22 3 
+43 7 3 
+43 10 3 
+44 10 3 
+44 17 3 
+44 18 3 
+44 19 3 
+44 21 3 
+44 22 3 
+44 3 3 
+44 8 3 
+45 15 3 
+45 16 3 
+45 17 3 
+45 18 3 
+45 20 3 
+45 21 3 
+45 2 3 
+45 11 3 
+46 12 3 
+46 15 3 
+46 16 3 
+46 18 3 
+46 20 3 
+46 23 3 
+46 9 3 
+46 11 3 
+47 13 3 
+47 14 3 
+47 17 3 
+47 18 3 
+47 22 3 
+47 23 3 
+47 10 3 
+47 12 3 
+48 12 3 
+48 13 3 
+48 16 3 
+48 17 3 
+48 21 3 
+48 22 3 
+48 9 3 
+48 11 3 
+49 10 3 
+49 11 3 
+49 14 3 
+49 17 3 
+49 19 3 
+49 21 3 
+49 4 3 
+49 9 3 
+50 9 3 
+50 10 3 
+50 13 3 
+50 16 3 
+50 18 3 
+50 20 3 
+50 3 3 
+50 8 3 
+51 10 3 
+51 14 3 
+51 15 3 
+51 17 3 
+51 20 3 
+51 23 3 
+51 0 3 
+51 9 3 
+52 9 3 
+52 11 3 
+52 16 3 
+52 17 3 
+52 19 3 
+52 23 3 
+52 3 3 
+52 8 3 
+53 11 3 
+53 13 3 
+53 15 3 
+53 17 3 
+53 21 3 
+53 23 3 
+53 7 3 
+53 10 3 
+54 10 3 
+54 12 3 
+54 14 3 
+54 16 3 
+54 20 3 
+54 22 3 
+54 6 3 
+54 9 3 
+55 11 3 
+55 12 3 
+55 13 3 
+55 14 3 
+55 21 3 
+55 22 3 
+55 0 3 
+55 10 3 
+56 10 3 
+56 12 3 
+56 15 3 
+56 17 3 
+56 18 3 
+56 21 3 
+56 7 3 
+56 9 3 
+57 9 3 
+57 11 3 
+57 14 3 
+57 16 3 
+57 17 3 
+57 20 3 
+57 6 3 
+57 8 3 
+58 13 3 
+58 15 3 
+58 19 3 
+58 21 3 
+58 22 3 
+58 23 3 
+58 8 3 
+58 10 3 
+59 13 3 
+59 14 3 
+59 15 3 
+59 16 3 
+59 18 3 
+59 22 3 
+59 4 3 
+59 12 3 
+60 10 3 
+60 13 3 
+60 15 3 
+60 18 3 
+60 19 3 
+60 20 3 
+60 8 3 
+60 9 3 
+61 12 3 
+61 17 3 
+61 18 3 
+61 20 3 
+61 21 3 
+61 23 3 
+61 8 3 
+61 10 3 
+62 17 3 
+62 18 3 
+62 19 3 
+62 20 3 
+62 22 3 
+62 23 3 
+62 8 3 
+62 11 3 
+63 11 3 
+63 15 3 
+63 18 3 
+63 19 3 
+63 22 3 
+63 23 3 
+63 9 3 
+63 10 3 
+64 10 3 
+64 14 3 
+64 17 3 
+64 18 3 
+64 21 3 
+64 22 3 
+64 8 3 
+64 9 3 
+65 14 3 
+65 15 3 
+65 16 3 
+65 17 3 
+65 20 3 
+65 23 3 
+65 11 3 
+65 12 3 
+66 13 3 
+66 14 3 
+66 16 3 
+66 18 3 
+66 22 3 
+66 23 3 
+66 10 3 
+66 11 3 
+67 15 3 
+67 18 3 
+67 19 3 
+67 20 3 
+67 21 3 
+67 22 3 
+67 12 3 
+67 14 3 
+68 11 3 
+68 18 3 
+68 19 3 
+68 20 3 
+68 22 3 
+68 23 3 
+68 6 3 
+68 8 3 
+69 11 3 
+69 12 3 
+69 13 3 
+69 17 3 
+69 21 3 
+69 22 3 
+69 8 3 
+69 10 3 
+70 9 3 
+70 12 3 
+70 13 3 
+70 14 3 
+70 21 3 
+70 23 3 
+70 6 3 
+70 8 3 
+71 14 3 
+71 15 3 
+71 19 3 
+71 20 3 
+71 21 3 
+71 23 3 
+71 3 3 
+71 10 3 
+72 10 3 
+72 12 3 
+72 17 3 
+72 19 3 
+72 20 3 
+72 23 3 
+72 8 3 
+72 9 3 
+73 14 3 
+73 18 3 
+73 19 3 
+73 20 3 
+73 22 3 
+73 23 3 
+73 4 3 
+73 9 3 
+74 13 3 
+74 14 3 
+74 15 3 
+74 17 3 
+74 19 3 
+74 8 3 
+74 10 3 
+75 12 3 
+75 15 3 
+75 17 3 
+75 19 3 
+75 22 3 
+75 1 3 
+75 11 3 
+76 14 3 
+76 17 3 
+76 18 3 
+76 20 3 
+76 21 3 
+76 10 3 
+76 12 3 
+77 16 3 
+77 17 3 
+77 18 3 
+77 22 3 
+77 23 3 
+77 3 3 
+77 15 3 
+78 18 3 
+78 19 3 
+78 20 3 
+78 21 3 
+78 22 3 
+78 12 3 
+78 16 3 
+79 10 3 
+79 12 3 
+79 13 3 
+79 20 3 
+79 22 3 
+79 5 3 
+79 8 3 
+80 10 3 
+80 11 3 
+80 13 3 
+80 17 3 
+80 18 3 
+80 2 3 
+80 8 3 
+81 11 3 
+81 14 3 
+81 16 3 
+81 19 3 
+81 23 3 
+81 0 3 
+81 10 3 
+82 11 3 
+82 13 3 
+82 16 3 
+82 21 3 
+82 23 3 
+82 6 3 
+82 9 3 
+83 11 3 
+83 15 3 
+83 16 3 
+83 18 3 
+83 23 3 
+83 5 3 
+83 8 3 
+84 11 3 
+84 14 3 
+84 18 3 
+84 22 3 
+84 23 3 
+84 8 3 
+84 10 3 
+85 10 3 
+85 15 3 
+85 17 3 
+85 21 3 
+85 22 3 
+85 8 3 
+85 9 3 
+86 12 3 
+86 14 3 
+86 20 3 
+86 22 3 
+86 23 3 
+86 8 3 
+86 10 3 
+87 11 3 
+87 14 3 
+87 15 3 
+87 16 3 
+87 19 3 
+87 8 3 
+87 9 3 
+88 13 3 
+88 16 3 
+88 17 3 
+88 18 3 
+88 21 3 
+88 7 3 
+88 8 3 
+89 16 3 
+89 17 3 
+89 19 3 
+89 20 3 
+89 22 3 
+89 10 3 
+89 13 3 
+90 16 3 
+90 17 3 
+90 18 3 
+90 21 3 
+90 22 3 
+90 0 3 
+90 13 3 
+91 15 3 
+91 17 3 
+91 18 3 
+91 19 3 
+91 23 3 
+91 10 3 
+91 14 3 
+92 14 3 
+92 16 3 
+92 19 3 
+92 22 3 
+92 23 3 
+92 9 3 
+92 13 3 
+93 12 3 
+93 17 3 
+93 19 3 
+93 21 3 
+93 22 3 
+93 8 3 
+93 10 3 
+94 15 3 
+94 16 3 
+94 18 3 
+94 21 3 
+94 22 3 
+94 10 3 
+94 12 3 
+95 12 3 
+95 15 3 
+95 16 3 
+95 18 3 
+95 19 3 
+95 0 3 
+95 11 3 
+96 13 3 
+96 14 3 
+96 20 3 
+96 21 3 
+96 23 3 
+96 2 3 
+96 11 3 
+97 13 3 
+97 16 3 
+97 18 3 
+97 21 3 
+97 23 3 
+97 9 3 
+97 12 3 
+98 15 3 
+98 17 3 
+98 19 3 
+98 21 3 
+98 22 3 
+98 8 3 
+98 9 3 
+99 14 3 
+99 15 3 
+99 16 3 
+99 20 3 
+99 23 3 
+99 11 3 
+99 13 3 
+100 12 3 
+100 13 3 
+100 14 3 
+100 22 3 
+100 23 3 
+100 2 3 
+100 9 3 
+101 13 3 
+101 16 3 
+101 19 3 
+101 21 3 
+101 22 3 
+101 11 3 
+101 12 3 
+102 12 3 
+102 15 3 
+102 19 3 
+102 21 3 
+102 23 3 
+102 0 3 
+102 9 3 
+103 15 3 
+103 16 3 
+103 18 3 
+103 19 3 
+103 22 3 
+103 8 3 
+103 10 3 
+104 13 3 
+104 14 3 
+104 18 3 
+104 20 3 
+104 22 3 
+104 9 3 
+104 10 3 
+105 12 3 
+105 13 3 
+105 17 3 
+105 19 3 
+105 21 3 
+105 8 3 
+105 9 3 
+106 12 3 
+106 15 3 
+106 16 3 
+106 18 3 
+106 20 3 
+106 8 3 
+106 9 3 
+107 9 3 
+107 18 3 
+107 19 3 
+107 22 3 
+107 23 3 
+107 3 3 
+107 8 3 
+108 11 3 
+108 19 3 
+108 21 3 
+108 22 3 
+108 23 3 
+108 8 3 
+108 9 3 
+109 14 3 
+109 15 3 
+109 20 3 
+109 21 3 
+109 22 3 
+109 1 3 
+109 8 3 
+110 13 3 
+110 14 3 
+110 17 3 
+110 19 3 
+110 20 3 
+110 9 3 
+110 11 3 
+111 13 3 
+111 17 3 
+111 20 3 
+111 21 3 
+111 23 3 
+111 7 3 
+111 9 3 
+112 14 3 
+112 17 3 
+112 20 3 
+112 22 3 
+112 23 3 
+112 1 3 
+112 9 3 
+113 12 3 
+113 13 3 
+113 14 3 
+113 16 3 
+113 22 3 
+113 0 3 
+113 8 3 
+114 18 3 
+114 19 3 
+114 2 3 
+114 8 3 
+114 10 3 
+114 12 3 
+115 20 3 
+115 21 3 
+115 3 3 
+115 9 3 
+115 14 3 
+115 16 3 
+116 22 3 
+116 23 3 
+116 1 3 
+116 13 3 
+116 20 3 
+116 21 3 
+117 19 3 
+117 21 3 
+117 4 3 
+117 10 3 
+117 12 3 
+117 15 3 
+118 19 3 
+118 20 3 
+118 11 3 
+118 12 3 
+118 14 3 
+118 18 3 
+119 22 3 
+119 23 3 
+119 8 3 
+119 9 3 
+119 17 3 
+119 18 3 
+120 20 3 
+120 23 3 
+120 0 3 
+120 15 3 
+120 16 3 
+120 18 3 
+121 15 3 
+121 23 3 
+121 2 3 
+121 8 3 
+121 10 3 
+121 12 3 
+122 19 3 
+122 21 3 
+122 7 3 
+122 13 3 
+122 15 3 
+122 18 3 
+123 17 3 
+123 19 3 
+123 5 3 
+123 11 3 
+123 13 3 
+123 16 3 
+124 22 3 
+124 23 3 
+124 5 3 
+124 8 3 
+124 12 3 
+124 16 3 
+125 16 3 
+125 17 3 
+125 4 3 
+125 9 3 
+125 10 3 
+125 12 3 
+126 13 3 
+126 18 3 
+126 8 3 
+126 9 3 
+126 10 3 
+126 12 3 
+127 17 3 
+127 21 3 
+127 8 3 
+127 12 3 
+127 15 3 
+127 16 3 
+128 18 3 
+128 21 3 
+128 6 3 
+128 9 3 
+128 13 3 
+128 15 3 
+129 17 3 
+129 20 3 
+129 5 3 
+129 8 3 
+129 12 3 
+129 14 3 
+130 15 3 
+130 23 3 
+130 10 3 
+130 11 3 
+130 12 3 
+130 14 3 
+131 21 3 
+131 23 3 
+131 6 3 
+131 10 3 
+131 11 3 
+131 12 3 
+132 16 3 
+132 19 3 
+132 6 3 
+132 9 3 
+132 12 3 
+132 15 3 
+133 21 3 
+133 22 3 
+133 9 3 
+133 11 3 
+133 15 3 
+133 16 3 
+134 21 3 
+134 23 3 
+134 5 3 
+134 12 3 
+134 14 3 
+134 20 3 
+135 20 3 
+135 23 3 
+135 4 3 
+135 11 3 
+135 17 3 
+135 18 3 
+136 21 3 
+136 23 3 
+136 10 3 
+136 15 3 
+136 17 3 
+136 19 3 
+137 15 3 
+137 17 3 
+137 7 3 
+137 8 3 
+137 12 3 
+137 13 3 
+138 20 3 
+138 21 3 
+138 2 3 
+138 9 3 
+138 14 3 
+138 18 3 
+139 19 3 
+139 20 3 
+139 1 3 
+139 8 3 
+139 13 3 
+139 17 3 
+140 19 3 
+140 23 3 
+140 4 3 
+140 11 3 
+140 14 3 
+140 15 3 
+141 14 3 
+141 18 3 
+141 0 3 
+141 8 3 
+141 9 3 
+141 10 3 
+142 18 3 
+142 23 3 
+142 4 3 
+142 9 3 
+142 10 3 
+142 16 3 
+143 20 3 
+143 22 3 
+143 6 3 
+143 16 3 
+143 17 3 
+143 18 3 
+144 21 3 
+144 22 3 
+144 11 3 
+144 13 3 
+144 15 3 
+145 17 3 
+145 20 3 
+145 7 3 
+145 9 3 
+145 16 3 
+146 21 3 
+146 22 3 
+146 10 3 
+146 12 3 
+146 20 3 
+147 21 3 
+147 22 3 
+147 10 3 
+147 15 3 
+147 19 3 
+148 18 3 
+148 21 3 
+148 3 3 
+148 10 3 
+148 13 3 
+149 17 3 
+149 20 3 
+149 2 3 
+149 9 3 
+149 12 3 
+150 16 3 
+150 19 3 
+150 1 3 
+150 8 3 
+150 11 3 
+151 20 3 
+151 22 3 
+151 5 3 
+151 8 3 
+151 18 3 
+152 16 3 
+152 23 3 
+152 10 3 
+152 11 3 
+152 14 3 
+153 18 3 
+153 21 3 
+153 8 3 
+153 13 3 
+153 16 3 
+154 19 3 
+154 22 3 
+154 9 3 
+154 13 3 
+154 14 3 
+155 19 3 
+155 23 3 
+155 9 3 
+155 13 3 
+155 14 3 
+156 19 3 
+156 20 3 
+156 4 3 
+156 11 3 
+156 13 3 
+157 18 3 
+157 19 3 
+157 1 3 
+157 10 3 
+157 17 3 
+158 17 3 
+158 18 3 
+158 8 3 
+158 9 3 
+158 16 3 
+159 22 3 
+159 23 3 
+159 14 3 
+159 19 3 
+159 21 3 
+160 17 3 
+160 21 3 
+160 11 3 
+160 14 3 
+160 15 3 
+161 21 3 
+161 23 3 
+161 9 3 
+161 12 3 
+161 16 3 
+162 20 3 
+162 22 3 
+162 8 3 
+162 10 3 
+162 11 3 
+163 20 3 
+163 22 3 
+163 1 3 
+163 10 3 
+163 13 3 
+164 20 3 
+164 21 3 
+164 12 3 
+164 15 3 
+164 16 3 
+165 13 3 
+165 21 3 
+165 7 3 
+165 9 3 
+165 12 3 
+166 17 3 
+166 18 3 
+166 6 3 
+166 11 3 
+166 12 3 
+167 16 3 
+167 20 3 
+167 5 3 
+167 10 3 
+167 11 3 
+168 15 3 
+168 16 3 
+168 5 3 
+168 9 3 
+168 10 3 
+169 14 3 
+169 18 3 
+169 0 3 
+169 9 3 
+170 17 3 
+170 23 3 
+170 0 3 
+170 15 3 
+171 19 3 
+171 20 3 
+171 9 3 
+171 11 3 
+172 17 3 
+172 18 3 
+172 10 3 
+172 11 3 
+173 15 3 
+173 19 3 
+173 6 3 
+173 12 3 
+174 16 3 
+174 19 3 
+174 3 3 
+174 10 3 
+175 15 3 
+175 18 3 
+175 1 3 
+175 11 3 
+176 15 3 
+176 21 3 
+176 10 3 
+176 12 3 
+177 15 3 
+177 22 3 
+177 13 3 
+177 14 3 
+178 10 3 
+178 17 3 
+178 4 3 
+178 8 3 
+179 16 3 
+179 23 3 
+179 7 3 
+179 8 3 
+180 18 3 
+180 21 3 
+180 11 3 
+180 12 3 
+181 18 3 
+181 22 3 
+181 12 3 
+181 13 3 
+182 18 3 
+182 23 3 
+182 8 3 
+183 12 3 
+183 14 3 
+183 1 3 
+184 16 3 
+184 21 3 
+184 11 3 
+185 10 3 
+185 14 3 
+185 8 3 
+186 9 3 
+186 19 3 
+186 8 3 
+187 13 3 
+187 21 3 
+187 12 3 
+188 11 3 
+188 22 3 
+188 8 3 
+189 12 3 
+189 20 3 
+189 0 3 
+190 19 3 
+190 23 3 
+190 1 3 
+191 10 3 
+191 17 3 
+191 0 3 
+192 14 3 
+192 16 3 
+193 3 3 
+193 13 3 
+194 11 3 
+194 22 3 
+195 12 3 
+195 17 3 
+196 14 3 
+196 20 3 
+197 0 3 
+197 19 3 
+198 10 3 
+198 12 3 
+199 4 3 
+199 17 3 
+200 9 3 
+200 10 3 
+201 14 3 
+201 22 3 
+202 14 3 
+202 21 3 
+203 16 3 
+203 17 3 
+204 5 3 
+204 22 3 
+205 2 3 
+205 19 3 
+206 7 3 
+206 22 3 
+207 17 3 
+207 19 3 
+208 12 3 
+208 14 3 
+209 2 3 
+209 13 3 
+210 14 3 
+210 17 3 
+211 6 3 
+211 10 3 
+212 10 3 
+212 19 3 
+213 14 3 
+213 22 3 
+214 12 3 
+214 20 3 
+215 9 3 
+215 13 3 
+216 5 3 
+216 23 3 
+217 13 3 
+217 20 3 
+218 12 3 
+218 19 3 
+219 9 3 
+219 20 3 
+220 5 3 
+220 23 3 
+221 11 3 
+221 14 3 
+222 7 3 
+222 12 3 
+223 6 3 
+223 16 3 
+224 2 3 
+224 20 3 
+225 11 3 
+225 19 3 
+226 0 3 
+226 18 3 
+227 7 3 
+227 18 3 
+228 10 3 
+228 11 3 
+229 18 3 
+229 20 3 
+230 9 3 
+230 14 3 
+231 14 3 
+231 20 3 
+232 19 3 
+232 23 3 
+233 17 3 
+233 21 3 
+234 1 3 
+234 19 3 
+235 0 3 
+235 13 3 
+236 15 3 
+236 17 3 
+237 4 3 
+237 21 3 
+238 2 3 
+238 9 3 
+239 16 3 
+239 19 3 
+240 13 3 
+240 21 3 
+241 7 3 
+241 15 3 
+242 13 3 
+242 18 3 
+243 1 3 
+243 14 3 
+244 2 3 
+244 17 3 
+245 10 3 
+245 18 3 
+246 2 3 
+246 14 3 
+247 1 3 
+247 23 3 
+248 13 3 
+248 21 3 
+249 10 3 
+249 17 3 
+250 7 3 
+250 11 3 
+251 14 3 
+251 15 3 
+252 13 3 
+252 19 3 
+253 4 3 
+253 18 3 
+254 11 3 
+254 16 3 
+255 9 3 
+255 23 3 
+256 13 3 
+256 14 3 
+257 5 3 
+257 9 3 
+258 4 3 
+258 8 3 
+259 14 3 
+259 18 3 
+260 11 3 
+260 21 3 
+261 1 3 
+261 20 3 
+262 7 3 
+262 17 3 
+263 6 3 
+263 23 3 
+264 9 3 
+264 21 3 
+265 15 3 
+265 20 3 
+266 8 3 
+266 12 3 
+267 1 3 
+267 14 3 
+268 11 3 
+268 13 3 
+269 7 3 
+269 20 3 
+270 9 3 
+270 19 3 
+271 15 3 
+271 16 3 
+272 2 3 
+272 18 3 
+273 11 3 
+273 12 3 
+274 20 3 
+274 23 3 
+275 0 3 
+275 13 3 
+276 5 3 
+276 20 3 
+277 1 3 
+277 16 3 
+278 5 3 
+278 21 3 
+279 4 3 
+279 14 3 
+280 3 3 
+280 19 3 
+281 16 3 
+281 18 3 
+282 11 3 
+282 18 3 
+283 18 3 
+283 22 3 
+284 13 3 
+284 22 3 
+285 2 3 
+285 16 3 
+286 10 3 
+286 16 3 
+287 6 3 
+287 12 3 
+288 5 3 
+288 11 3 
+289 4 3 
+289 13 3 
+290 3 3 
+290 20 3 
+291 11 3 
+291 23 3 
+292 10 3 
+292 22 3 
+293 15 3 
+293 17 3 
+294 6 3 
+294 11 3 
+295 5 3 
+295 13 3 
+296 4 3 
+296 19 3 
+297 3 3 
+297 16 3 
+298 12 3 
+298 19 3 
+299 0 3 
+299 9 3 
+300 9 3 
+300 12 3 
+301 3 3 
+301 8 3 
+302 11 3 
+302 15 3 
+303 1 3 
+303 14 3 
+304 0 3 
+304 13 3 
+305 7 3 
+305 22 3 
+306 8 3 
+306 22 3 
+307 4 3 
+307 22 3 
+308 13 3 
+308 16 3 
+309 1 3 
+309 8 3 
+310 17 3 
+310 20 3 
+311 8 3 
+311 16 3 
+312 5 3 
+312 14 3 
+313 10 3 
+313 21 3 
+314 3 3 
+314 12 3 
+315 2 3 
+315 11 3 
+316 15 3 
+316 23 3 
+317 7 3 
+317 19 3 
+318 2 3 
+318 15 3 
+319 11 3 
+319 18 3 
+320 0 3 
+320 21 3 
+321 18 3 
+321 19 3 
+322 8 3 
+322 19 3 
+323 21 3 
+323 23 3 
+324 8 3 
+324 17 3 
+325 9 3 
+325 13 3 
+326 13 3 
+326 15 3 
+327 19 3 
+327 21 3 
+328 6 3 
+328 20 3 
+-------------
+384 86 4 
+384 315 4 
+385 23 1 
+385 85 4 
+386 20 1 
+386 16 1 
+386 84 4 
+387 155 4 
+387 314 4 
+387 19 1 
+388 154 4 
+388 313 4 
+389 5 1 
+389 17 1 
+389 177 4 
+390 312 4 
+390 16 1 
+390 15 1 
+390 17 1 
+391 17 1 
+391 311 4 
+391 153 4 
+392 18 1 
+392 0 1 
+392 62 4 
+393 310 4 
+393 152 4 
+394 9 1 
+394 196 4 
+394 309 4 
+395 151 4 
+395 3 1 
+396 308 4 
+396 150 4 
+397 307 4 
+397 11 1 
+397 149 4 
+398 148 4 
+398 17 1 
+398 306 4 
+399 147 4 
+399 305 4 
+400 176 4 
+400 21 1 
+401 22 1 
+401 175 4 
+402 174 4 
+402 23 1 
+403 3 1 
+403 173 4 
+403 18 1 
+404 172 4 
+404 20 1 
+404 4 1 
+405 304 4 
+405 128 4 
+406 127 4 
+406 303 4 
+407 302 4 
+407 126 4 
+408 27 4 
+408 301 4 
+409 61 4 
+409 17 1 
+409 300 4 
+410 195 4 
+410 60 4 
+411 62 5 
+411 299 4 
+412 18 1 
+412 152 5 
+412 4 1 
+413 298 4 
+413 171 4 
+414 170 4 
+414 297 4 
+415 7 1 
+415 125 4 
+416 296 4 
+416 173 5 
+417 169 4 
+417 295 4 
+418 20 1 
+418 128 5 
+418 2 1 
+419 13 1 
+419 3 1 
+419 124 4 
+420 4 1 
+420 126 5 
+420 22 1 
+421 59 4 
+421 18 1 
+422 58 4 
+422 15 1 
+422 294 4 
+423 83 4 
+423 293 4 
+423 19 1 
+424 292 4 
+424 82 4 
+425 123 4 
+425 291 4 
+426 290 4 
+426 146 4 
+427 289 4 
+427 20 1 
+427 57 4 
+428 15 4 
+428 19 1 
+429 13 1 
+429 14 4 
+430 13 4 
+430 14 1 
+431 22 1 
+431 2 4 
+432 288 4 
+432 122 4 
+433 56 4 
+433 287 4 
+434 9 1 
+434 121 4 
+434 2 1 
+435 286 4 
+435 120 4 
+436 119 4 
+436 285 4 
+437 12 1 
+437 5 1 
+437 145 4 
+438 154 5 
+438 6 1 
+438 12 1 
+439 177 5 
+439 316 4 
+440 16 1 
+440 0 1 
+440 12 4 
+441 0 4 
+441 17 1 
+442 55 4 
+443 26 4 
+444 20 1 
+444 118 4 
+445 117 4 
+445 5 1 
+446 144 4 
+446 284 4 
+447 10 1 
+447 143 4 
+448 18 1 
+448 81 4 
+449 307 5 
+449 194 4 
+450 193 4 
+450 283 4 
+451 282 4 
+451 168 4 
+452 116 4 
+452 12 1 
+453 13 1 
+453 115 4 
+454 142 4 
+454 281 4 
+455 280 4 
+455 167 4 
+456 80 4 
+456 192 4 
+457 0 5 
+457 12 1 
+458 55 5 
+458 279 4 
+459 278 4 
+459 26 5 
+460 15 1 
+460 118 5 
+461 5 1 
+461 141 4 
+462 168 5 
+462 6 1 
+462 9 1 
+463 19 1 
+463 277 4 
+463 316 5 
+464 122 5 
+464 276 4 
+465 56 5 
+465 22 1 
+466 60 5 
+466 18 1 
+467 22 1 
+467 275 4 
+467 191 4 
+468 190 4 
+468 10 1 
+468 279 5 
+469 11 1 
+469 171 5 
+470 12 1 
+470 170 5 
+471 8 1 
+471 79 4 
+472 54 4 
+472 296 5 
+473 78 4 
+473 274 4 
+473 14 1 
+474 273 4 
+474 21 1 
+474 114 4 
+475 8 1 
+475 77 4 
+475 272 4 
+476 113 4 
+476 189 4 
+477 271 4 
+477 76 4 
+478 53 4 
+478 270 4 
+479 19 1 
+479 166 4 
+479 269 4 
+480 10 1 
+480 140 4 
+480 289 5 
+481 268 4 
+481 139 4 
+482 52 4 
+482 15 1 
+482 267 4 
+483 19 1 
+483 266 4 
+483 75 4 
+484 51 4 
+484 265 4 
+485 14 5 
+485 16 1 
+486 13 5 
+486 17 1 
+487 25 4 
+487 298 5 
+488 151 5 
+488 264 4 
+489 263 4 
+489 125 5 
+490 271 5 
+490 74 4 
+491 10 1 
+491 20 1 
+491 50 4 
+492 262 4 
+492 73 4 
+493 261 4 
+493 21 1 
+493 72 4 
+494 127 5 
+494 16 1 
+494 260 4 
+495 293 5 
+495 24 4 
+496 259 4 
+496 165 4 
+497 164 4 
+497 1 1 
+497 18 1 
+498 188 4 
+498 258 4 
+499 163 4 
+499 3 1 
+499 20 1 
+500 187 4 
+500 4 1 
+500 314 5 
+501 149 5 
+501 19 1 
+502 148 5 
+502 20 1 
+503 147 5 
+503 257 4 
+504 20 1 
+504 23 4 
+504 256 4 
+505 295 5 
+505 112 4 
+505 22 1 
+506 255 4 
+506 11 4 
+507 22 4 
+507 266 5 
+508 305 5 
+508 4 1 
+508 21 4 
+509 254 4 
+509 21 1 
+509 59 5 
+510 284 5 
+510 13 1 
+510 10 4 
+511 4 4 
+511 7 1 
+512 165 5 
+512 253 4 
+513 252 4 
+513 162 4 
+514 23 1 
+514 138 4 
+514 18 1 
+515 71 4 
+515 251 4 
+516 250 4 
+516 116 5 
+517 18 1 
+517 19 1 
+517 115 5 
+518 49 4 
+519 111 4 
+519 10 1 
+520 0 1 
+520 8 1 
+520 9 4 
+521 20 4 
+521 10 1 
+521 263 5 
+522 2 1 
+522 110 4 
+522 23 1 
+523 20 5 
+523 275 5 
+524 313 5 
+524 21 1 
+524 109 4 
+525 304 5 
+525 48 4 
+526 19 4 
+526 255 5 
+527 249 4 
+527 47 4 
+528 0 1 
+528 108 4 
+529 107 4 
+529 1 1 
+530 8 1 
+530 196 5 
+531 248 4 
+531 15 1 
+531 3 1 
+532 186 4 
+532 311 5 
+533 185 4 
+533 247 4 
+534 23 1 
+534 10 1 
+534 184 4 
+535 106 4 
+535 16 1 
+535 18 1 
+536 1 4 
+536 0 1 
+537 246 4 
+537 8 4 
+538 10 1 
+538 46 4 
+538 245 4 
+539 70 4 
+539 270 5 
+540 244 4 
+540 105 4 
+540 19 1 
+541 247 5 
+541 104 4 
+542 103 4 
+542 243 4 
+543 297 5 
+543 106 5 
+544 264 5 
+544 45 4 
+544 13 1 
+545 110 5 
+545 242 4 
+545 13 1 
+546 9 1 
+546 46 5 
+547 70 5 
+547 241 4 
+548 9 1 
+548 44 4 
+548 256 5 
+549 5 1 
+549 102 4 
+549 8 1 
+550 103 5 
+550 265 5 
+551 137 4 
+551 7 1 
+551 22 1 
+552 172 5 
+552 301 5 
+552 13 1 
+553 161 4 
+553 8 1 
+553 240 4 
+554 239 4 
+554 146 5 
+555 11 1 
+555 282 5 
+555 183 4 
+556 4 1 
+556 185 5 
+556 238 4 
+557 182 4 
+557 237 4 
+557 15 1 
+558 12 1 
+558 19 1 
+558 58 5 
+559 43 4 
+559 315 5 
+560 140 5 
+560 12 1 
+561 136 4 
+561 242 5 
+562 14 1 
+562 52 5 
+563 299 5 
+563 19 1 
+563 101 4 
+564 166 5 
+564 262 5 
+565 236 4 
+565 164 5 
+566 6 1 
+566 22 1 
+566 135 4 
+567 163 5 
+567 23 1 
+567 7 1 
+568 134 4 
+568 246 5 
+569 235 4 
+569 139 5 
+570 133 4 
+570 191 5 
+571 144 5 
+571 14 1 
+571 234 4 
+572 142 5 
+572 233 4 
+572 4 1 
+573 100 4 
+573 291 5 
+574 312 5 
+574 108 5 
+574 20 1 
+575 302 5 
+575 107 5 
+575 20 1 
+576 232 4 
+576 18 4 
+577 8 5 
+577 231 4 
+578 250 5 
+578 12 5 
+578 2 1 
+579 7 4 
+579 9 1 
+580 42 4 
+580 181 4 
+581 180 4 
+581 17 4 
+582 69 4 
+582 16 1 
+583 132 4 
+583 195 5 
+584 274 5 
+584 134 5 
+585 230 4 
+585 99 4 
+586 98 4 
+586 8 1 
+587 234 5 
+587 19 1 
+587 137 5 
+588 254 5 
+588 97 4 
+589 96 4 
+589 229 4 
+590 14 1 
+590 68 4 
+590 16 1 
+591 228 4 
+591 67 4 
+592 86 5 
+592 227 4 
+593 85 5 
+593 12 1 
+593 226 4 
+594 84 5 
+594 253 5 
+594 18 1 
+595 243 5 
+595 155 5 
+596 42 5 
+596 272 5 
+597 66 4 
+597 225 4 
+597 10 1 
+598 83 5 
+598 224 4 
+599 143 5 
+599 12 1 
+599 223 4 
+600 176 5 
+600 8 1 
+601 175 5 
+601 9 1 
+602 174 5 
+602 10 1 
+603 160 4 
+603 20 1 
+604 186 5 
+604 260 5 
+605 5 1 
+605 54 5 
+605 235 5 
+606 19 5 
+606 222 4 
+607 221 4 
+607 47 5 
+608 223 5 
+608 18 5 
+608 17 1 
+609 194 5 
+609 105 5 
+610 131 4 
+610 8 1 
+610 220 4 
+611 288 5 
+611 16 4 
+612 219 4 
+612 113 5 
+613 66 5 
+613 249 5 
+614 69 5 
+614 15 1 
+615 159 4 
+615 179 4 
+616 0 1 
+616 75 5 
+616 15 1 
+617 41 4 
+617 8 1 
+617 9 1 
+618 9 1 
+618 10 1 
+618 40 4 
+619 218 4 
+619 39 4 
+620 6 4 
+620 217 4 
+621 76 5 
+621 9 1 
+621 13 1 
+622 14 1 
+622 53 5 
+622 12 1 
+623 43 5 
+623 8 1 
+624 95 4 
+624 9 1 
+625 216 4 
+625 158 4 
+626 130 4 
+626 11 1 
+627 169 5 
+627 12 1 
+627 3 1 
+628 38 4 
+628 244 5 
+629 215 4 
+629 37 4 
+630 10 1 
+630 36 4 
+630 6 1 
+631 3 4 
+631 7 1 
+632 35 4 
+632 214 4 
+633 180 5 
+633 158 5 
+633 9 1 
+634 104 5 
+634 258 5 
+635 216 5 
+635 120 5 
+636 97 5 
+636 18 1 
+636 14 1 
+637 21 1 
+637 65 4 
+638 34 4 
+638 273 5 
+639 33 4 
+639 233 5 
+640 213 4 
+640 167 5 
+641 16 1 
+641 287 5 
+641 78 5 
+642 227 5 
+642 94 4 
+642 2 1 
+643 77 5 
+643 226 5 
+644 64 4 
+644 23 1 
+644 12 1 
+645 212 4 
+645 82 5 
+646 12 1 
+646 211 4 
+646 93 4 
+647 210 4 
+647 18 1 
+647 136 5 
+648 309 5 
+648 80 5 
+649 5 4 
+649 237 5 
+650 209 4 
+650 11 5 
+650 16 1 
+651 39 5 
+651 22 1 
+651 208 4 
+652 129 4 
+652 190 5 
+653 16 1 
+653 259 5 
+653 65 5 
+654 207 4 
+654 34 5 
+655 33 5 
+655 206 4 
+656 0 1 
+656 205 4 
+656 96 5 
+657 41 5 
+657 19 1 
+658 40 5 
+658 20 1 
+659 7 5 
+659 187 5 
+660 6 5 
+660 22 1 
+661 32 4 
+661 15 1 
+661 9 1 
+662 92 4 
+662 277 5 
+663 141 5 
+663 280 5 
+664 16 1 
+664 95 5 
+664 308 5 
+665 230 5 
+665 94 5 
+666 188 5 
+666 130 5 
+667 251 5 
+667 189 5 
+668 44 5 
+668 20 1 
+669 17 5 
+670 221 5 
+670 68 5 
+671 241 5 
+671 67 5 
+672 257 5 
+672 0 1 
+672 91 4 
+673 1 1 
+673 90 4 
+673 252 5 
+674 114 5 
+674 290 5 
+674 19 1 
+675 16 5 
+675 225 5 
+676 9 1 
+676 14 1 
+676 64 5 
+676 205 5 
+677 5 1 
+677 112 5 
+677 14 1 
+678 181 5 
+678 49 5 
+679 23 1 
+679 111 5 
+679 9 1 
+680 9 1 
+680 178 4 
+681 1 1 
+681 193 5 
+682 11 1 
+682 283 5 
+682 18 1 
+683 157 4 
+683 11 1 
+684 4 1 
+684 156 4 
+685 267 5 
+685 182 5 
+686 261 5 
+686 184 5 
+687 204 4 
+687 192 5 
+688 81 5 
+688 276 5 
+689 91 5 
+689 310 5 
+690 90 5 
+690 203 4 
+691 31 4 
+691 245 5 
+692 8 1 
+692 15 5 
+693 30 4 
+693 183 5 
+694 14 1 
+694 286 5 
+694 89 4 
+695 2 5 
+695 11 1 
+696 209 5 
+696 63 4 
+697 123 5 
+697 17 1 
+697 23 1 
+698 15 1 
+698 98 5 
+698 202 4 
+699 121 5 
+699 3 1 
+700 4 1 
+700 102 5 
+701 119 5 
+701 5 1 
+702 145 5 
+702 6 1 
+703 19 1 
+703 132 5 
+704 21 5 
+704 0 1 
+705 201 4 
+705 73 5 
+706 10 5 
+706 2 1 
+707 20 1 
+707 29 4 
+707 217 5 
+708 13 1 
+708 88 4 
+708 232 5 
+709 9 5 
+709 229 5 
+710 87 4 
+710 281 5 
+710 23 1 
+711 25 5 
+711 238 5 
+712 200 4 
+712 63 5 
+713 124 5 
+713 15 1 
+713 201 5 
+714 2 1 
+714 61 5 
+715 50 5 
+715 222 5 
+716 4 1 
+716 87 5 
+717 12 1 
+717 72 5 
+718 92 5 
+718 20 1 
+719 208 5 
+719 159 5 
+720 0 1 
+720 303 5 
+720 161 5 
+721 131 5 
+721 199 4 
+722 220 5 
+722 99 5 
+723 9 1 
+723 157 5 
+723 200 5 
+724 4 1 
+724 101 5 
+725 236 5 
+725 8 1 
+725 22 1 
+726 6 1 
+726 179 5 
+727 210 5 
+727 135 5 
+728 213 5 
+728 10 1 
+728 156 5 
+729 240 5 
+729 38 5 
+730 37 5 
+730 203 5 
+731 3 1 
+731 36 5 
+731 21 1 
+732 3 5 
+732 285 5 
+732 22 1 
+733 13 1 
+733 4 5 
+733 212 5 
+734 219 5 
+734 6 1 
+734 27 5 
+735 1 5 
+735 204 5 
+736 12 1 
+736 35 5 
+736 248 5 
+737 20 1 
+737 300 5 
+737 22 5 
+738 2 1 
+738 28 4 
+738 22 1 
+739 278 5 
+739 29 5 
+740 218 5 
+740 88 5 
+741 10 1 
+741 215 5 
+741 24 5 
+742 202 5 
+742 6 1 
+742 117 5 
+743 228 5 
+743 79 5 
+744 23 5 
+744 22 1 
+745 45 5 
+745 199 5 
+746 16 1 
+746 133 5 
+747 160 5 
+747 207 5 
+748 15 1 
+748 150 5 
+749 198 4 
+749 100 5 
+750 93 5 
+750 197 4 
+751 14 1 
+751 153 5 
+751 211 5 
+752 306 5 
+752 22 1 
+752 178 5 
+753 162 5 
+753 239 5 
+754 138 5 
+754 198 5 
+755 31 5 
+755 294 5 
+756 8 1 
+756 51 5 
+757 19 1 
+757 30 5 
+758 19 1 
+758 89 5 
+759 269 5 
+759 71 5 
+760 28 5 
+760 292 5 
+761 19 1 
+761 231 5 
+761 5 5 
+762 8 1 
+762 214 5 
+762 74 5 
+763 57 5 
+763 268 5 
+764 4 1 
+764 48 5 
+764 206 5 
+765 197 5 
+765 32 5 
+766 129 5 
+766 224 5 
+767 7 1 
+767 15 1 
+767 109 5 
+0 14 3 
+0 15 3 
+0 16 3 
+0 18 3 
+0 19 3 
+0 21 3 
+0 23 3 
+0 1 3 
+0 8 3 
+0 9 3 
+0 10 3 
+0 11 3 
+0 13 3 
+1 12 3 
+1 13 3 
+1 16 3 
+1 17 3 
+1 19 3 
+1 20 3 
+1 21 3 
+1 22 3 
+1 23 3 
+1 8 3 
+1 9 3 
+1 11 3 
+2 10 3 
+2 12 3 
+2 15 3 
+2 16 3 
+2 17 3 
+2 18 3 
+2 20 3 
+2 21 3 
+2 23 3 
+2 7 3 
+2 8 3 
+2 9 3 
+3 10 3 
+3 12 3 
+3 13 3 
+3 14 3 
+3 15 3 
+3 16 3 
+3 18 3 
+3 20 3 
+3 21 3 
+3 23 3 
+3 8 3 
+4 9 3 
+4 10 3 
+4 14 3 
+4 15 3 
+4 17 3 
+4 18 3 
+4 20 3 
+4 21 3 
+4 22 3 
+4 23 3 
+4 8 3 
+5 10 3 
+5 11 3 
+5 12 3 
+5 14 3 
+5 17 3 
+5 21 3 
+5 22 3 
+5 1 3 
+5 8 3 
+5 9 3 
+6 10 3 
+6 13 3 
+6 14 3 
+6 15 3 
+6 16 3 
+6 17 3 
+6 18 3 
+6 4 3 
+6 8 3 
+6 9 3 
+7 11 3 
+7 13 3 
+7 14 3 
+7 15 3 
+7 16 3 
+7 21 3 
+7 23 3 
+7 3 3 
+7 8 3 
+7 10 3 
+8 13 3 
+8 14 3 
+8 16 3 
+8 17 3 
+8 19 3 
+8 21 3 
+8 22 3 
+8 1 3 
+8 9 3 
+8 12 3 
+9 16 3 
+9 17 3 
+9 18 3 
+9 19 3 
+9 20 3 
+9 21 3 
+9 22 3 
+9 9 3 
+9 12 3 
+9 14 3 
+10 14 3 
+10 16 3 
+10 17 3 
+10 19 3 
+10 20 3 
+10 21 3 
+10 22 3 
+10 8 3 
+10 10 3 
+10 11 3 
+11 11 3 
+11 12 3 
+11 19 3 
+11 20 3 
+11 21 3 
+11 22 3 
+11 23 3 
+11 2 3 
+11 9 3 
+11 10 3 
+12 13 3 
+12 14 3 
+12 15 3 
+12 19 3 
+12 20 3 
+12 22 3 
+12 23 3 
+12 8 3 
+12 11 3 
+12 12 3 
+13 15 3 
+13 16 3 
+13 18 3 
+13 20 3 
+13 21 3 
+13 22 3 
+13 23 3 
+13 6 3 
+13 8 3 
+13 10 3 
+14 14 3 
+14 15 3 
+14 18 3 
+14 20 3 
+14 21 3 
+14 22 3 
+14 23 3 
+14 5 3 
+14 10 3 
+14 11 3 
+15 12 3 
+15 13 3 
+15 14 3 
+15 17 3 
+15 20 3 
+15 21 3 
+15 22 3 
+15 4 3 
+15 9 3 
+15 10 3 
+16 10 3 
+16 12 3 
+16 13 3 
+16 14 3 
+16 18 3 
+16 19 3 
+16 3 3 
+16 8 3 
+16 9 3 
+17 12 3 
+17 17 3 
+17 18 3 
+17 19 3 
+17 20 3 
+17 21 3 
+17 5 3 
+17 9 3 
+17 11 3 
+18 12 3 
+18 13 3 
+18 14 3 
+18 16 3 
+18 19 3 
+18 23 3 
+18 0 3 
+18 8 3 
+18 11 3 
+19 13 3 
+19 14 3 
+19 17 3 
+19 20 3 
+19 21 3 
+19 23 3 
+19 6 3 
+19 11 3 
+19 12 3 
+20 17 3 
+20 18 3 
+20 19 3 
+20 20 3 
+20 22 3 
+20 23 3 
+20 9 3 
+20 13 3 
+20 15 3 
+21 16 3 
+21 17 3 
+21 18 3 
+21 20 3 
+21 22 3 
+21 23 3 
+21 10 3 
+21 12 3 
+21 14 3 
+22 12 3 
+22 13 3 
+22 16 3 
+22 18 3 
+22 21 3 
+22 23 3 
+22 9 3 
+22 10 3 
+22 11 3 
+23 11 3 
+23 14 3 
+23 16 3 
+23 17 3 
+23 18 3 
+23 19 3 
+23 0 3 
+23 9 3 
+23 10 3 
+24 16 3 
+24 17 3 
+24 18 3 
+24 19 3 
+24 20 3 
+24 23 3 
+24 8 3 
+24 11 3 
+24 13 3 
+25 12 3 
+25 16 3 
+25 17 3 
+25 20 3 
+25 22 3 
+25 23 3 
+25 7 3 
+25 8 3 
+25 10 3 
+26 11 3 
+26 12 3 
+26 15 3 
+26 17 3 
+26 18 3 
+26 23 3 
+26 3 3 
+26 8 3 
+26 9 3 
+27 15 3 
+27 16 3 
+27 17 3 
+27 21 3 
+27 22 3 
+27 23 3 
+27 9 3 
+27 12 3 
+27 14 3 
+28 21 3 
+28 8 3 
+28 13 3 
+28 14 3 
+28 16 3 
+28 17 3 
+28 18 3 
+28 20 3 
+29 23 3 
+29 3 3 
+29 9 3 
+29 15 3 
+29 17 3 
+29 18 3 
+29 21 3 
+29 22 3 
+30 23 3 
+30 5 3 
+30 9 3 
+30 10 3 
+30 11 3 
+30 14 3 
+30 15 3 
+30 22 3 
+31 21 3 
+31 3 3 
+31 8 3 
+31 10 3 
+31 12 3 
+31 13 3 
+31 15 3 
+31 20 3 
+32 23 3 
+32 5 3 
+32 8 3 
+32 12 3 
+32 14 3 
+32 17 3 
+32 18 3 
+32 19 3 
+33 22 3 
+33 7 3 
+33 9 3 
+33 11 3 
+33 12 3 
+33 14 3 
+33 17 3 
+33 20 3 
+34 21 3 
+34 6 3 
+34 8 3 
+34 10 3 
+34 11 3 
+34 13 3 
+34 16 3 
+34 19 3 
+35 23 3 
+35 0 3 
+35 8 3 
+35 10 3 
+35 11 3 
+35 14 3 
+35 18 3 
+35 22 3 
+36 23 3 
+36 12 3 
+36 13 3 
+36 14 3 
+36 15 3 
+36 18 3 
+36 20 3 
+36 22 3 
+37 22 3 
+37 11 3 
+37 12 3 
+37 13 3 
+37 14 3 
+37 17 3 
+37 19 3 
+37 21 3 
+38 21 3 
+38 10 3 
+38 11 3 
+38 12 3 
+38 13 3 
+38 16 3 
+38 18 3 
+38 20 3 
+39 23 3 
+39 3 3 
+39 8 3 
+39 13 3 
+39 14 3 
+39 16 3 
+39 18 3 
+39 19 3 
+40 23 3 
+40 2 3 
+40 12 3 
+40 13 3 
+40 14 3 
+40 15 3 
+40 19 3 
+40 22 3 
+41 22 3 
+41 1 3 
+41 11 3 
+41 12 3 
+41 13 3 
+41 14 3 
+41 18 3 
+41 21 3 
+42 20 3 
+42 4 3 
+42 14 3 
+42 15 3 
+42 16 3 
+42 17 3 
+42 18 3 
+42 19 3 
+43 21 3 
+43 7 3 
+43 9 3 
+43 11 3 
+43 13 3 
+43 15 3 
+43 19 3 
+43 20 3 
+44 19 3 
+44 4 3 
+44 8 3 
+44 10 3 
+44 11 3 
+44 16 3 
+44 17 3 
+44 18 3 
+45 23 3 
+45 10 3 
+45 12 3 
+45 15 3 
+45 17 3 
+45 18 3 
+45 19 3 
+45 20 3 
+46 23 3 
+46 2 3 
+46 11 3 
+46 13 3 
+46 14 3 
+46 15 3 
+46 17 3 
+46 22 3 
+47 22 3 
+47 7 3 
+47 12 3 
+47 13 3 
+47 14 3 
+47 15 3 
+47 16 3 
+47 21 3 
+48 22 3 
+48 9 3 
+48 12 3 
+48 13 3 
+48 15 3 
+48 16 3 
+48 17 3 
+48 20 3 
+49 21 3 
+49 6 3 
+49 10 3 
+49 11 3 
+49 12 3 
+49 15 3 
+49 19 3 
+49 20 3 
+50 23 3 
+50 3 3 
+50 12 3 
+50 14 3 
+50 16 3 
+50 17 3 
+50 18 3 
+50 21 3 
+51 22 3 
+51 4 3 
+51 9 3 
+51 10 3 
+51 13 3 
+51 14 3 
+51 18 3 
+51 21 3 
+52 20 3 
+52 2 3 
+52 8 3 
+52 9 3 
+52 10 3 
+52 16 3 
+52 18 3 
+52 19 3 
+53 20 3 
+53 6 3 
+53 8 3 
+53 9 3 
+53 11 3 
+53 15 3 
+53 18 3 
+53 19 3 
+54 22 3 
+54 8 3 
+54 10 3 
+54 11 3 
+54 13 3 
+54 18 3 
+54 19 3 
+54 20 3 
+55 22 3 
+55 2 3 
+55 8 3 
+55 9 3 
+55 14 3 
+55 15 3 
+55 16 3 
+55 17 3 
+56 23 3 
+56 1 3 
+56 9 3 
+56 11 3 
+56 15 3 
+56 16 3 
+56 19 3 
+56 20 3 
+57 21 3 
+57 3 3 
+57 8 3 
+57 9 3 
+57 11 3 
+57 12 3 
+57 16 3 
+57 18 3 
+58 21 3 
+58 6 3 
+58 8 3 
+58 10 3 
+58 14 3 
+58 16 3 
+58 18 3 
+58 20 3 
+59 23 3 
+59 5 3 
+59 11 3 
+59 13 3 
+59 14 3 
+59 15 3 
+59 16 3 
+59 20 3 
+60 23 3 
+60 2 3 
+60 8 3 
+60 11 3 
+60 16 3 
+60 17 3 
+60 19 3 
+60 21 3 
+61 23 3 
+61 8 3 
+61 11 3 
+61 13 3 
+61 16 3 
+61 19 3 
+61 20 3 
+61 22 3 
+62 22 3 
+62 9 3 
+62 10 3 
+62 11 3 
+62 12 3 
+62 15 3 
+62 16 3 
+62 19 3 
+63 0 3 
+63 8 3 
+63 10 3 
+63 11 3 
+63 16 3 
+63 21 3 
+63 22 3 
+64 4 3 
+64 11 3 
+64 13 3 
+64 15 3 
+64 18 3 
+64 19 3 
+64 20 3 
+65 5 3 
+65 11 3 
+65 12 3 
+65 15 3 
+65 19 3 
+65 20 3 
+65 23 3 
+66 5 3 
+66 8 3 
+66 11 3 
+66 12 3 
+66 14 3 
+66 15 3 
+66 21 3 
+67 7 3 
+67 13 3 
+67 14 3 
+67 19 3 
+67 21 3 
+67 22 3 
+67 23 3 
+68 6 3 
+68 12 3 
+68 13 3 
+68 18 3 
+68 20 3 
+68 21 3 
+68 22 3 
+69 6 3 
+69 8 3 
+69 9 3 
+69 11 3 
+69 13 3 
+69 21 3 
+69 22 3 
+70 3 3 
+70 8 3 
+70 14 3 
+70 15 3 
+70 16 3 
+70 19 3 
+70 23 3 
+71 8 3 
+71 10 3 
+71 11 3 
+71 12 3 
+71 16 3 
+71 17 3 
+71 18 3 
+72 5 3 
+72 8 3 
+72 10 3 
+72 14 3 
+72 17 3 
+72 18 3 
+72 23 3 
+73 11 3 
+73 13 3 
+73 15 3 
+73 16 3 
+73 17 3 
+73 20 3 
+73 21 3 
+74 2 3 
+74 9 3 
+74 13 3 
+74 18 3 
+74 20 3 
+74 22 3 
+74 23 3 
+75 8 3 
+75 9 3 
+75 12 3 
+75 13 3 
+75 17 3 
+75 20 3 
+75 21 3 
+76 5 3 
+76 8 3 
+76 14 3 
+76 15 3 
+76 17 3 
+76 18 3 
+76 19 3 
+77 3 3 
+77 10 3 
+77 12 3 
+77 14 3 
+77 17 3 
+77 19 3 
+77 22 3 
+78 1 3 
+78 9 3 
+78 12 3 
+78 18 3 
+78 19 3 
+78 20 3 
+78 23 3 
+79 7 3 
+79 10 3 
+79 11 3 
+79 12 3 
+79 13 3 
+79 18 3 
+79 22 3 
+80 0 3 
+80 8 3 
+80 13 3 
+80 15 3 
+80 19 3 
+80 20 3 
+80 22 3 
+81 0 3 
+81 8 3 
+81 12 3 
+81 13 3 
+81 17 3 
+81 19 3 
+81 23 3 
+82 8 3 
+82 10 3 
+82 11 3 
+82 13 3 
+82 14 3 
+82 18 3 
+82 21 3 
+83 8 3 
+83 9 3 
+83 10 3 
+83 15 3 
+83 17 3 
+83 18 3 
+83 22 3 
+84 2 3 
+84 11 3 
+84 17 3 
+84 19 3 
+84 21 3 
+84 22 3 
+84 23 3 
+85 1 3 
+85 10 3 
+85 16 3 
+85 17 3 
+85 20 3 
+85 21 3 
+85 22 3 
+86 0 3 
+86 9 3 
+86 16 3 
+86 18 3 
+86 20 3 
+86 21 3 
+86 23 3 
+87 16 3 
+87 17 3 
+87 22 3 
+87 10 3 
+87 13 3 
+87 15 3 
+88 16 3 
+88 22 3 
+88 23 3 
+88 4 3 
+88 8 3 
+88 11 3 
+89 16 3 
+89 18 3 
+89 23 3 
+89 6 3 
+89 8 3 
+89 15 3 
+90 15 3 
+90 17 3 
+90 23 3 
+90 10 3 
+90 12 3 
+90 14 3 
+91 14 3 
+91 16 3 
+91 22 3 
+91 9 3 
+91 11 3 
+91 13 3 
+92 13 3 
+92 15 3 
+92 16 3 
+92 6 3 
+92 9 3 
+92 11 3 
+93 14 3 
+93 17 3 
+93 19 3 
+93 6 3 
+93 9 3 
+93 11 3 
+94 17 3 
+94 18 3 
+94 21 3 
+94 9 3 
+94 13 3 
+94 16 3 
+95 19 3 
+95 20 3 
+95 23 3 
+95 0 3 
+95 12 3 
+95 18 3 
+96 18 3 
+96 20 3 
+96 21 3 
+96 11 3 
+96 12 3 
+96 13 3 
+97 19 3 
+97 20 3 
+97 22 3 
+97 4 3 
+97 10 3 
+97 11 3 
+98 19 3 
+98 20 3 
+98 23 3 
+98 2 3 
+98 9 3 
+98 10 3 
+99 15 3 
+99 18 3 
+99 19 3 
+99 8 3 
+99 10 3 
+99 11 3 
+100 13 3 
+100 16 3 
+100 18 3 
+100 5 3 
+100 8 3 
+100 10 3 
+101 15 3 
+101 20 3 
+101 21 3 
+101 9 3 
+101 10 3 
+101 11 3 
+102 19 3 
+102 20 3 
+102 22 3 
+102 9 3 
+102 17 3 
+102 18 3 
+103 18 3 
+103 19 3 
+103 21 3 
+103 6 3 
+103 9 3 
+103 10 3 
+104 17 3 
+104 18 3 
+104 20 3 
+104 8 3 
+104 9 3 
+104 12 3 
+105 15 3 
+105 16 3 
+105 17 3 
+105 9 3 
+105 10 3 
+105 12 3 
+106 15 3 
+106 19 3 
+106 20 3 
+106 7 3 
+106 11 3 
+106 14 3 
+107 13 3 
+107 15 3 
+107 18 3 
+107 9 3 
+107 10 3 
+107 11 3 
+108 12 3 
+108 14 3 
+108 17 3 
+108 8 3 
+108 9 3 
+108 10 3 
+109 14 3 
+109 17 3 
+109 23 3 
+109 8 3 
+109 11 3 
+109 12 3 
+110 16 3 
+110 21 3 
+110 22 3 
+110 8 3 
+110 12 3 
+110 14 3 
+111 20 3 
+111 21 3 
+111 22 3 
+111 7 3 
+111 8 3 
+111 13 3 
+112 19 3 
+112 20 3 
+112 21 3 
+112 8 3 
+112 15 3 
+112 18 3 
+113 14 3 
+113 15 3 
+113 19 3 
+113 4 3 
+113 9 3 
+113 13 3 
+114 13 3 
+114 15 3 
+114 16 3 
+114 2 3 
+114 10 3 
+114 12 3 
+115 11 3 
+115 14 3 
+115 20 3 
+115 5 3 
+115 9 3 
+115 10 3 
+116 10 3 
+116 13 3 
+116 19 3 
+116 4 3 
+116 8 3 
+116 9 3 
+117 14 3 
+117 17 3 
+117 21 3 
+117 9 3 
+117 10 3 
+117 12 3 
+118 11 3 
+118 13 3 
+118 16 3 
+118 4 3 
+118 8 3 
+118 9 3 
+119 20 3 
+119 21 3 
+119 23 3 
+119 10 3 
+119 18 3 
+119 19 3 
+120 17 3 
+120 18 3 
+120 19 3 
+120 3 3 
+120 9 3 
+120 10 3 
+121 18 3 
+121 19 3 
+121 21 3 
+121 8 3 
+121 16 3 
+121 17 3 
+122 17 3 
+122 22 3 
+122 23 3 
+122 0 3 
+122 8 3 
+122 14 3 
+123 10 3 
+123 14 3 
+123 22 3 
+123 1 3 
+123 8 3 
+123 9 3 
+124 17 3 
+124 21 3 
+124 22 3 
+124 9 3 
+124 11 3 
+124 12 3 
+125 18 3 
+125 22 3 
+125 23 3 
+125 8 3 
+125 10 3 
+125 12 3 
+126 14 3 
+126 18 3 
+126 23 3 
+126 10 3 
+126 12 3 
+126 13 3 
+127 12 3 
+127 20 3 
+127 22 3 
+127 6 3 
+127 9 3 
+127 11 3 
+128 12 3 
+128 16 3 
+128 21 3 
+128 8 3 
+128 10 3 
+128 11 3 
+129 16 3 
+129 22 3 
+129 9 3 
+129 14 3 
+129 15 3 
+130 19 3 
+130 22 3 
+130 2 3 
+130 14 3 
+130 17 3 
+131 17 3 
+131 18 3 
+131 12 3 
+131 14 3 
+131 15 3 
+132 22 3 
+132 23 3 
+132 7 3 
+132 12 3 
+132 17 3 
+133 13 3 
+133 21 3 
+133 2 3 
+133 8 3 
+133 10 3 
+134 17 3 
+134 18 3 
+134 0 3 
+134 14 3 
+134 15 3 
+135 19 3 
+135 23 3 
+135 10 3 
+135 16 3 
+135 18 3 
+136 15 3 
+136 23 3 
+136 8 3 
+136 11 3 
+136 13 3 
+137 18 3 
+137 21 3 
+137 10 3 
+137 11 3 
+137 16 3 
+138 16 3 
+138 19 3 
+138 2 3 
+138 14 3 
+138 15 3 
+139 15 3 
+139 20 3 
+139 1 3 
+139 8 3 
+139 10 3 
+140 15 3 
+140 22 3 
+140 0 3 
+140 11 3 
+140 14 3 
+141 14 3 
+141 17 3 
+141 8 3 
+141 9 3 
+141 11 3 
+142 14 3 
+142 15 3 
+142 10 3 
+142 11 3 
+142 12 3 
+143 19 3 
+143 23 3 
+143 7 3 
+143 8 3 
+143 14 3 
+144 18 3 
+144 22 3 
+144 10 3 
+144 11 3 
+144 13 3 
+145 21 3 
+145 22 3 
+145 11 3 
+145 16 3 
+145 18 3 
+146 15 3 
+146 20 3 
+146 2 3 
+146 9 3 
+146 12 3 
+147 19 3 
+147 22 3 
+147 7 3 
+147 15 3 
+147 16 3 
+148 21 3 
+148 23 3 
+148 6 3 
+148 14 3 
+148 19 3 
+149 20 3 
+149 22 3 
+149 5 3 
+149 13 3 
+149 18 3 
+150 18 3 
+150 23 3 
+150 4 3 
+150 10 3 
+150 12 3 
+151 20 3 
+151 22 3 
+151 10 3 
+151 15 3 
+151 17 3 
+152 20 3 
+152 23 3 
+152 8 3 
+152 13 3 
+152 17 3 
+153 18 3 
+153 20 3 
+153 7 3 
+153 10 3 
+153 12 3 
+154 22 3 
+154 23 3 
+154 13 3 
+154 17 3 
+154 19 3 
+155 22 3 
+155 23 3 
+155 3 3 
+155 12 3 
+155 16 3 
+156 20 3 
+156 9 3 
+156 11 3 
+156 12 3 
+157 19 3 
+157 3 3 
+157 8 3 
+157 10 3 
+158 18 3 
+158 1 3 
+158 10 3 
+158 16 3 
+159 14 3 
+159 7 3 
+159 8 3 
+159 11 3 
+160 22 3 
+160 3 3 
+160 11 3 
+160 14 3 
+161 16 3 
+161 10 3 
+161 11 3 
+161 14 3 
+162 23 3 
+162 1 3 
+162 13 3 
+162 14 3 
+163 18 3 
+163 11 3 
+163 16 3 
+163 17 3 
+164 23 3 
+164 9 3 
+164 19 3 
+164 22 3 
+165 22 3 
+165 0 3 
+165 18 3 
+165 21 3 
+166 21 3 
+166 8 3 
+166 18 3 
+166 20 3 
+167 22 3 
+167 8 3 
+167 10 3 
+167 15 3 
+168 18 3 
+168 10 3 
+168 12 3 
+168 15 3 
+169 23 3 
+169 15 3 
+169 18 3 
+169 20 3 
+170 21 3 
+170 6 3 
+170 15 3 
+170 17 3 
+171 20 3 
+171 5 3 
+171 14 3 
+171 16 3 
+172 23 3 
+172 15 3 
+172 17 3 
+172 19 3 
+173 22 3 
+173 14 3 
+173 16 3 
+173 19 3 
+174 21 3 
+174 2 3 
+174 13 3 
+174 19 3 
+175 20 3 
+175 1 3 
+175 12 3 
+175 18 3 
+176 19 3 
+176 0 3 
+176 11 3 
+176 17 3 
+177 23 3 
+177 14 3 
+177 16 3 
+177 19 3 
+178 0 3 
+178 13 3 
+178 16 3 
+179 9 3 
+179 22 3 
+179 23 3 
+180 8 3 
+180 15 3 
+180 23 3 
+181 8 3 
+181 9 3 
+181 22 3 
+182 5 3 
+182 10 3 
+182 13 3 
+183 13 3 
+183 18 3 
+183 21 3 
+184 6 3 
+184 13 3 
+184 14 3 
+185 9 3 
+185 12 3 
+185 22 3 
+186 4 3 
+186 12 3 
+186 21 3 
+187 12 3 
+187 18 3 
+187 19 3 
+188 10 3 
+188 18 3 
+188 23 3 
+189 11 3 
+189 16 3 
+189 23 3 
+190 4 3 
+190 17 3 
+190 23 3 
+191 9 3 
+191 12 3 
+191 17 3 
+192 12 3 
+192 14 3 
+192 23 3 
+193 10 3 
+193 14 3 
+193 17 3 
+194 1 3 
+194 13 3 
+194 14 3 
+195 9 3 
+195 10 3 
+195 14 3 
+196 2 3 
+196 14 3 
+196 19 3 
+197 21 3 
+197 13 3 
+198 20 3 
+198 12 3 
+199 11 3 
+199 1 3 
+200 20 3 
+200 14 3 
+201 23 3 
+201 1 3 
+202 16 3 
+202 11 3 
+203 20 3 
+203 2 3 
+204 15 3 
+204 7 3 
+205 17 3 
+205 10 3 
+206 18 3 
+206 10 3 
+207 17 3 
+207 9 3 
+208 21 3 
+208 17 3 
+209 15 3 
+209 13 3 
+210 20 3 
+210 7 3 
+211 22 3 
+211 15 3 
+212 16 3 
+212 5 3 
+213 23 3 
+213 0 3 
+214 19 3 
+214 15 3 
+215 9 3 
+215 5 3 
+216 21 3 
+216 13 3 
+217 12 3 
+217 11 3 
+218 15 3 
+218 12 3 
+219 20 3 
+219 8 3 
+220 13 3 
+220 2 3 
+221 19 3 
+221 10 3 
+222 19 3 
+222 9 3 
+223 18 3 
+223 9 3 
+224 13 3 
+224 6 3 
+225 17 3 
+225 16 3 
+226 18 3 
+226 11 3 
+227 11 3 
+227 10 3 
+228 17 3 
+228 15 3 
+229 23 3 
+229 5 3 
+230 22 3 
+230 1 3 
+231 18 3 
+231 15 3 
+232 21 3 
+232 20 3 
+233 23 3 
+233 19 3 
+234 9 3 
+234 3 3 
+235 16 3 
+235 12 3 
+236 21 3 
+236 5 3 
+237 23 3 
+237 20 3 
+238 19 3 
+238 14 3 
+239 17 3 
+239 11 3 
+240 19 3 
+240 1 3 
+241 20 3 
+241 11 3 
+242 10 3 
+242 1 3 
+243 14 3 
+243 13 3 
+244 8 3 
+244 4 3 
+245 19 3 
+245 16 3 
+246 23 3 
+246 10 3 
+247 13 3 
+247 5 3 
+248 20 3 
+248 9 3 
+249 20 3 
+249 9 3 
+250 18 3 
+250 17 3 
+251 15 3 
+251 3 3 
+252 22 3 
+252 19 3 
+253 13 3 
+253 12 3 
+254 17 3 
+254 12 3 
+255 18 3 
+255 8 3 
+256 21 3 
+256 15 3 
+257 21 3 
+257 18 3 
+258 16 3 
+258 2 3 
+259 17 3 
+259 8 3 
+260 23 3 
+260 15 3 
+261 22 3 
+261 11 3 
+262 22 3 
+262 4 3 
+263 21 3 
+263 1 3 
+264 21 3 
+264 0 3 
+265 23 3 
+265 20 3 
+266 22 3 
+266 3 3 
+267 21 3 
+267 12 3 
+268 23 3 
+268 14 3 
+269 9 3 
+269 7 3 
+270 17 3 
+270 10 3 
+271 16 3 
+271 11 3 
+272 23 3 
+272 13 3 
+273 22 3 
+273 18 3 
+274 21 3 
+274 11 3 
+275 16 3 
+275 3 3 
+276 21 3 
+276 10 3 
+277 12 3 
+277 8 3 
+278 19 3 
+278 14 3 
+279 18 3 
+279 13 3 
+280 13 3 
+280 7 3 
+281 21 3 
+281 6 3 
+282 8 3 
+282 3 3 
+283 15 3 
+283 2 3 
+284 15 3 
+284 6 3 
+285 11 3 
+285 4 3 
+286 22 3 
+286 20 3 
+287 10 3 
+287 8 3 
+288 15 3 
+288 11 3 
+289 19 3 
+289 13 3 
+290 23 3 
+290 8 3 
+291 19 3 
+291 15 3 
+292 15 3 
+292 0 3 
+293 21 3 
+293 7 3 
+294 17 3 
+294 11 3 
+295 17 3 
+295 1 3 
+296 17 3 
+296 0 3 
+297 22 3 
+297 10 3 
+298 21 3 
+298 9 3 
+299 17 3 
+299 3 3 
+300 15 3 
+300 1 3 
+301 11 3 
+301 0 3 
+302 21 3 
+302 7 3 
+303 17 3 
+303 13 3 
+304 19 3 
+304 5 3 
+305 13 3 
+305 11 3 
+306 12 3 
+306 10 3 
+307 16 3 
+307 9 3 
+308 21 3 
+308 8 3 
+309 21 3 
+309 16 3 
+310 19 3 
+310 1 3 
+311 11 3 
+311 8 3 
+312 19 3 
+312 6 3 
+313 16 3 
+313 4 3 
+314 21 3 
+314 17 3 
+315 22 3 
+315 17 3 
+316 13 3 
+316 7 3 
+-------------
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6021.628000 us, size = 12582912, speed = 1.946110
+ !!!xor_time: 4391.796000 us, cpy_time: 1213.379000 us
+ !!!all_time: 5605.175000 us
+***************************************************
+ !!! schedule------Encode cost 6135.795000 us, size = 12582912, speed = 1.909899
+ !!!xor_time: 5774.620000 us, cpy_time: 25.400000 us
+ !!!all_time: 5800.020000 us
+
+
+**************k = 96, m = 3, w = 8, nr = 2, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 8653.163000 us, size = 12582912, speed = 1.354274
+ !!!xor_time: 4813.739000 us, cpy_time: 3545.527000 us
+ !!!all_time: 8359.266000 us
+***************************************************
+ !!! schedule------Encode cost 6159.822000 us, size = 12582912, speed = 1.902449
+ !!!xor_time: 5890.687000 us, cpy_time: 30.279000 us
+ !!!all_time: 5920.966000 us
+**************k = 96, m = 3, w = 8, nr = 2, size = 25165824, packetsize = 32768**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6352
+split---common copy nums:	670
+split---common xor nums:	4222
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 22107.647000 us, size = 25165824, speed = 1.060154
+ !!!xor_time: 11439.537000 us, cpy_time: 10337.417000 us
+ !!!all_time: 21776.954000 us
+***************************************************
+ !!! schedule------Encode cost 14387.498000 us, size = 25165824, speed = 1.629018
+ !!!xor_time: 14066.111000 us, cpy_time: 82.485000 us
+ !!!all_time: 14148.596000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 256**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 19016.230000 us, size = 10616832, speed = 0.519961
+ !!!xor_time: 8088.990000 us, cpy_time: 1140.792000 us
+ !!!all_time: 9229.782000 us
+***************************************************
+ !!! schedule------Encode cost 22229.962000 us, size = 10616832, speed = 0.444791
+ !!!xor_time: 13494.790000 us, cpy_time: 81.461000 us
+ !!!all_time: 13576.251000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 10616832, packetsize = 512**************
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+113 234 199 146 176  26 156  33   4  27  41  50  56 122  63   3 124 203 115 150 239 230 235  98 242 128 109  39 104 130 224 151  76  16  79  20 254 245 198  54 154  74 136  92  58 246 138  66   2 158   8 218  64 237 201 249  49 241  69  45 236 132   1 206  48  83  87  59 180 168 216 196 121 200  14   9 123 179  18 205 133 161  60  17 106  34  53 173  84  77 108  30  95  78  52 225
+105  58 132 186  49  44  45 231  70 248 222 167  16 153 147  71 112  34 193 172 117 178 243 103 254 213 196 198  33 130 151  23 141 125  37 120  96  14 155 236  13  84 139 171 107 197 225   7 247  77  42 227  75  36 194 217 142 216 226  94  72 114 102  63 100 127   2 251 190 138  64 134 185  38 181  10 143  50 156 204 192 121  54 189 101   1 170  97 215 113   3 144 212  79  65  55
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 110592
+ !!! common xor------Encode cost 11108.578000 us, size = 10616832, speed = 0.890096
+ !!!xor_time: 5497.561000 us, cpy_time: 715.335000 us
+ !!!all_time: 6212.896000 us
+***************************************************
+ !!! schedule------Encode cost 14152.534000 us, size = 10616832, speed = 0.698652
+ !!!xor_time: 9686.601000 us, cpy_time: 48.266000 us
+ !!!all_time: 9734.867000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 11010048, packetsize = 1024**************
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+113 234 199 146 176  26 156  33   4  27  41  50  56 122  63   3 124 203 115 150 239 230 235  98 242 128 109  39 104 130 224 151  76  16  79  20 254 245 198  54 154  74 136  92  58 246 138  66   2 158   8 218  64 237 201 249  49 241  69  45 236 132   1 206  48  83  87  59 180 168 216 196 121 200  14   9 123 179  18 205 133 161  60  17 106  34  53 173  84  77 108  30  95  78  52 225
+105  58 132 186  49  44  45 231  70 248 222 167  16 153 147  71 112  34 193 172 117 178 243 103 254 213 196 198  33 130 151  23 141 125  37 120  96  14 155 236  13  84 139 171 107 197 225   7 247  77  42 227  75  36 194 217 142 216 226  94  72 114 102  63 100 127   2 251 190 138  64 134 185  38 181  10 143  50 156 204 192 121  54 189 101   1 170  97 215 113   3 144 212  79  65  55
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 7680.139000 us, size = 11010048, speed = 1.335120
+ !!!xor_time: 4527.751000 us, cpy_time: 583.112000 us
+ !!!all_time: 5110.863000 us
+***************************************************
+ !!! schedule------Encode cost 10878.572000 us, size = 11010048, speed = 0.942578
+ !!!xor_time: 8580.316000 us, cpy_time: 39.574000 us
+ !!!all_time: 8619.890000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 11010048, packetsize = 2048**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 114688
+ !!! common xor------Encode cost 6147.758000 us, size = 11010048, speed = 1.667910
+ !!!xor_time: 4160.193000 us, cpy_time: 669.145000 us
+ !!!all_time: 4829.338000 us
+***************************************************
+ !!! schedule------Encode cost 7968.680000 us, size = 11010048, speed = 1.286776
+ !!!xor_time: 6802.865000 us, cpy_time: 29.558000 us
+ !!!all_time: 6832.423000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 4096**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6065.774000 us, size = 12582912, speed = 1.931946
+ !!!xor_time: 4415.669000 us, cpy_time: 874.976000 us
+ !!!all_time: 5290.645000 us
+***************************************************
+ !!! schedule------Encode cost 8182.700000 us, size = 12582912, speed = 1.432137
+ !!!xor_time: 7495.056000 us, cpy_time: 27.316000 us
+ !!!all_time: 7522.372000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 8192**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 6308.099000 us, size = 12582912, speed = 1.857731
+ !!!xor_time: 4344.675000 us, cpy_time: 1547.380000 us
+ !!!all_time: 5892.055000 us
+***************************************************
+ !!! schedule------Encode cost 7635.789000 us, size = 12582912, speed = 1.534714
+ !!!xor_time: 7282.265000 us, cpy_time: 25.701000 us
+ !!!all_time: 7307.966000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 12582912, packetsize = 16384**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 131072
+ !!! common xor------Encode cost 9077.476000 us, size = 12582912, speed = 1.290970
+ !!!xor_time: 4838.784000 us, cpy_time: 3962.479000 us
+ !!!all_time: 8801.263000 us
+***************************************************
+ !!! schedule------Encode cost 7844.613000 us, size = 12582912, speed = 1.493860
+ !!!xor_time: 7593.225000 us, cpy_time: 30.249000 us
+ !!!all_time: 7623.474000 us
+**************k = 96, m = 3, w = 8, nr = 1, size = 25165824, packetsize = 32768**************
+bitmatrix ones: 		6691
+xor nums: 			6667
+********************************************
+split---schedlue copy nums:	24
+split---schedlue xor nums:	6458
+split---common copy nums:	658
+split---common xor nums:	4153
+**************************初始化数据
+Malloc... 2d 3 x 262144
+ !!! common xor------Encode cost 17826.050000 us, size = 25165824, speed = 1.314789
+ !!!xor_time: 11730.831000 us, cpy_time: 5762.606000 us
+ !!!all_time: 17493.437000 us
+***************************************************
+ !!! schedule------Encode cost 14739.275000 us, size = 25165824, speed = 1.590139
+ !!!xor_time: 14413.637000 us, cpy_time: 96.135000 us
+ !!!all_time: 14509.772000 us

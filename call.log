@@ -1,0 +1,10 @@
+ 1016  vtune -collect hotspots -zerasure r001hs -quiet /home/test/sample
+ 1017  vtune -collect hotspots -result-dir r001hs -quiet /home/test/sample
+ 1018  vtune -collect hotspots -result-dir r001hs -quiet ./vtunetest
+ 1019  vtune -collect hotspots -result-dir r001hs -quiet ./zerasure
+ 1020  vtune -collect hotspots -result-dir r001hs -quiet ./zerasure 6 2 8 1 1024
+ 1021  vtune -collect hotspots -result-dir r002hs -quiet ./zerasure 6 2 8 1 1024
+ 1022  vtune -collect memory-consumption -app-working-dir r003hs ./zerasure 6 2 8 1 1024
+ 1023  vtune -collect memory-consumption ./zerasure 6 2 8 1 1024
+ 1024  vtune -collect memory-consumption ./zerasure 96 3 8 4 1024
+ 1025  vtune -collect memory-consumption ./zerasure 96 3 8 8 1024
